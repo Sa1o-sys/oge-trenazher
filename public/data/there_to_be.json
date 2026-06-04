@@ -1,0 +1,777 @@
+{
+  "id": "there_to_be",
+  "name": "Базовая конструкция There + to be",
+  "icon": "📌",
+  "subtopics": [
+    {
+      "id": "there_to_be_main",
+      "name": "Базовая конструкция There + to be",
+      "description_items": [
+        [
+          "2.4.5",
+          "There + to be"
+        ]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "there_to_be_razberis_0",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай примеры:\n• There is a lamp on the desk.\n• There are three books on the shelf.\n\nПочему в первом предложении IS, а во втором ARE?",
+            "explanation": "Конструкция there + to be сообщает о наличии чего-либо. Форма глагола зависит от числа существительного, которое идёт ПОСЛЕ него: ед.ч. (a lamp) → IS, мн.ч. (three books) → ARE. Это базовый принцип согласования, на котором держится вся тема.",
+            "options": [
+              "Случайно, разницы нет",
+              "IS стоит перед существительным в единственном числе, ARE — перед существительным во множественном",
+              "IS — потому что предмет ближе, ARE — потому что дальше"
+            ],
+            "correct_idx": 1,
+            "answer": "IS стоит перед существительным в единственном числе, ARE — перед существительным во множественном"
+          },
+          {
+            "id": "there_to_be_razberis_1",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There is a big park in our city.»\n\nЧто прежде всего сообщает это предложение?",
+            "explanation": "There + to be вводит новый объект и сообщает о его существовании или наличии («есть», «имеется»). Это его основная коммуникативная функция — не описать, а заявить о присутствии чего-либо.",
+            "options": [
+              "Что в городе ЕСТЬ / имеется парк (наличие)",
+              "Что парк находится в уже известном слушателю месте",
+              "Что парк очень красивый"
+            ],
+            "correct_idx": 0,
+            "answer": "Что в городе ЕСТЬ / имеется парк (наличие)"
+          },
+          {
+            "id": "there_to_be_razberis_2",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Сравни:\n• There is a problem.\n• The problem is serious.\n\nВ чём разница роли there is?",
+            "explanation": "There is представляет НОВУЮ информацию (объект называется впервые), поэтому за ним идёт неопределённый артикль a/an. Когда объект уже известен, используется обычная структура The + существительное + is. Это ключевое смысловое различие.",
+            "options": [
+              "Это одно и то же",
+              "There is вводит новый, ещё не упомянутый объект («есть проблема»), а The problem is — говорит об уже известном",
+              "There is используется только в вопросах"
+            ],
+            "correct_idx": 1,
+            "answer": "There is вводит новый, ещё не упомянутый объект («есть проблема»), а The problem is — говорит об уже известном"
+          },
+          {
+            "id": "there_to_be_razberis_3",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There are some apples in the bowl.»\n\nНа что указывают ARE + some?",
+            "explanation": "ARE сигналит о множественном числе (apples). Слово some («несколько», «некоторое количество») употребляется в утвердительных предложениях с исчисляемыми во мн.ч. и с неисчисляемыми существительными.",
+            "options": [
+              "На один предмет",
+              "На отсутствие предметов",
+              "На несколько предметов"
+            ],
+            "correct_idx": 2,
+            "answer": "На несколько предметов"
+          },
+          {
+            "id": "there_to_be_razberis_4",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай:\n• There was a concert last night.\n• There were many guests.\n\nЧто выражают WAS / WERE?",
+            "explanation": "WAS и WERE — это формы прошедшего времени глагола to be. Конструкция there was / there were сообщает, что что-то было / имелось в прошлом. WAS — для ед.ч. (a concert), WERE — для мн.ч. (many guests).",
+            "options": [
+              "Наличие чего-либо в прошлом",
+              "Действие в будущем",
+              "Вопрос"
+            ],
+            "correct_idx": 0,
+            "answer": "Наличие чего-либо в прошлом"
+          },
+          {
+            "id": "there_to_be_razberis_5",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There isn't any sugar in my tea.»\n\nЧто выражает isn't any?",
+            "explanation": "Отрицательная форма there isn't = there is not означает, что чего-либо НЕТ. В отрицаниях вместо some используется any. Сочетание isn't any подчёркивает полное отсутствие.",
+            "options": [
+              "Большое количество сахара",
+              "Отсутствие сахара (нет ни одного / нисколько)",
+              "Что сахар скоро появится"
+            ],
+            "correct_idx": 1,
+            "answer": "Отсутствие сахара (нет ни одного / нисколько)"
+          },
+          {
+            "id": "there_to_be_razberis_6",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«Is there a pharmacy near here?»\n\nКак образован этот вопрос?",
+            "explanation": "Вопрос в конструкции there + to be строится перестановкой: глагол (is/are/was/were) выносится вперёд, перед словом there. Никакого вспомогательного глагола здесь не нужно — to be образует вопрос самостоятельно.",
+            "options": [
+              "Добавлен вспомогательный глагол",
+              "Глагол is поставлен перед there",
+              "Порядок слов как в утверждении"
+            ],
+            "correct_idx": 1,
+            "answer": "Глагол is поставлен перед there"
+          },
+          {
+            "id": "there_to_be_razberis_7",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There is some milk in the fridge.»\n\nПочему IS, хотя молока может быть много?",
+            "explanation": "Неисчисляемые существительные (milk, water, money, time, snow и т.д.) не имеют формы множественного числа и всегда сочетаются с IS (наст.) или WAS (прош.), независимо от реального объёма.",
+            "options": [
+              "Это ошибка, нужно ARE",
+              "milk здесь стоит во множественном числе",
+              "milk — неисчисляемое существительное, с ним всегда is/was"
+            ],
+            "correct_idx": 0,
+            "answer": "Это ошибка, нужно ARE"
+          },
+          {
+            "id": "there_to_be_razberis_8",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There's a message for you.»\n\nЧто означает there's?",
+            "explanation": "There's — это краткая форма there is, типичная для разговорной речи и неформальной переписки. Полная форма — there is.",
+            "options": [
+              "Сокращение there has",
+              "Сокращение there is",
+              "Притяжательную форму слова there"
+            ],
+            "correct_idx": 1,
+            "answer": "Сокращение there is"
+          },
+          {
+            "id": "there_to_be_razberis_9",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There will be a meeting tomorrow.»\n\nЧто показывает will be?",
+            "explanation": "There will be — форма будущего времени конструкции. Она сообщает, что что-то будет / состоится. Форма will be одинакова и для единственного, и для множественного числа.",
+            "options": [
+              "Наличие в будущем",
+              "Наличие в прошлом",
+              "Отрицание"
+            ],
+            "correct_idx": 0,
+            "answer": "Наличие в будущем"
+          },
+          {
+            "id": "there_to_be_razberis_10",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There is a good café there.»\n\nОдинаковую ли роль играют два слова there?",
+            "explanation": "Первое there — формальное (служебное) слово, часть конструкции there is, оно само по себе не переводится. Второе there — полноценное наречие места «там». Важно их различать: они пишутся одинаково, но выполняют разные роли.",
+            "options": [
+              "Да, оба значат «там»",
+              "Нет. Первое — часть конструкции there is («есть / имеется»), второе — наречие «там»",
+              "Это опечатка, должно быть одно there"
+            ],
+            "correct_idx": 1,
+            "answer": "Нет. Первое — часть конструкции there is («есть / имеется»), второе — наречие «там»"
+          },
+          {
+            "id": "there_to_be_razberis_11",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Прочитай: \n«There is a pen and two notebooks on the table.»\n\nПочему IS, ведь предметов несколько?",
+            "explanation": "При перечислении предметов глагол there is/are согласуется с тем существительным, которое идёт сразу за ним (первым в списке). Здесь первое — a pen (ед.ч.), поэтому IS. Если бы список начинался с two notebooks, было бы ARE.",
+            "options": [
+              "is здесь — ошибка, нужно are",
+              "Глагол согласуется с первым словом перечисления",
+              "is всегда ставится в перечислениях"
+            ],
+            "correct_idx": 1,
+            "answer": "Глагол согласуется с первым словом перечисления"
+          }
+        ],
+        "rule": [
+          {
+            "id": "there_to_be_rule_0",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ a cinema in this street.»",
+            "explanation": "cinema — существительное в единственном числе, поэтому используется there IS. Форма there be (без is/are) в самостоятельном предложении не употребляется.",
+            "options": [
+              "There are",
+              "There is",
+              "There be"
+            ],
+            "correct_idx": 1,
+            "answer": "There is"
+          },
+          {
+            "id": "there_to_be_rule_1",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ five students in the classroom.»",
+            "explanation": "five students — множественное число, поэтому there ARE. Числительное больше одного автоматически требует множественного числа глагола.",
+            "options": [
+              "There is",
+              "There be",
+              "There are"
+            ],
+            "correct_idx": 2,
+            "answer": "There are"
+          },
+          {
+            "id": "there_to_be_rule_2",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«There ___ any chairs in the room.»",
+            "explanation": "chairs - мн.число, поэтому выбираем ARE. Но обратите внимание на слово ANY перед существительным, которое используется в ОТРИЦАНИЯХ, поэтому правильный ответ - are not.",
+            "options": [
+              "are",
+              "are not",
+              "is"
+            ],
+            "correct_idx": 1,
+            "answer": "are not"
+          },
+          {
+            "id": "there_to_be_rule_3",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верное слово:\n\n«There ___ some cookies on the plate.»",
+            "explanation": "Перед существительным стоит слово SOME. Мы можем сделать вывод, что предожение должно быть утвердительным. Так как cookies - множественное число, то выбираем ARE.",
+            "options": [
+              "are",
+              "is",
+              "are not"
+            ],
+            "correct_idx": 0,
+            "answer": "are"
+          },
+          {
+            "id": "there_to_be_rule_4",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верное слово:\n\n«There ___ much time left.»",
+            "explanation": "there be - не используется в таком виде в предложениях; are not - не подходит, так как time - неисчисляемое существительное; правильный вариант - is not.",
+            "options": [
+              "there be",
+              "is not",
+              "are not"
+            ],
+            "correct_idx": 1,
+            "answer": "is not"
+          },
+          {
+            "id": "there_to_be_rule_5",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верное слово:\n\n«There ___ many tourists here in summer.»",
+            "explanation": "tourists — исчисляемое во мн.ч., поэтому ARE. Остальные варианты используются только с ед.ч.",
+            "options": [
+              "is not",
+              "is",
+              "are"
+            ],
+            "correct_idx": 2,
+            "answer": "are"
+          },
+          {
+            "id": "there_to_be_rule_6",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Сравни конструкции. \nВыбери верный вариант:\n«I have a new phone. ___ very expensive.»",
+            "explanation": "Телефон уже назван, и мы его ОПИСЫВАЕМ — для этого служит It is. There is вводило бы новый объект и сообщало о его наличии, что здесь не нужно. Это типичная ловушка: there is ≠ it is.",
+            "options": [
+              "There is",
+              "It is",
+              "There are"
+            ],
+            "correct_idx": 1,
+            "answer": "It is"
+          },
+          {
+            "id": "there_to_be_rule_7",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верный вариант:\n\n«Look! ___ a spider on the wall!»",
+            "explanation": "Мы впервые сообщаем о наличии нового объекта (паука) — для этого нужна конструкция There is. It is использовалось бы, если бы объект уже был известен и мы его описывали или идентифицировали.",
+            "options": [
+              "It is",
+              "There is",
+              "There are"
+            ],
+            "correct_idx": 1,
+            "answer": "There is"
+          },
+          {
+            "id": "there_to_be_rule_8",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ a lot of snow last winter.»",
+            "explanation": "snow — неисчисляемое, поэтому в прошедшем времени WAS (а не were), несмотря на «a lot of». Неисчисляемые всегда требуют формы единственного числа.",
+            "options": [
+              "There were",
+              "There was",
+              "There are"
+            ],
+            "correct_idx": 1,
+            "answer": "There was"
+          },
+          {
+            "id": "there_to_be_rule_9",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ many cars in the car park yesterday.»",
+            "explanation": "many cars — мн.ч.; yesterday указывает на прошлое, поэтому WERE. there are было бы настоящим временем, there was — с единственным числом.",
+            "options": [
+              "There was",
+              "There are",
+              "There were"
+            ],
+            "correct_idx": 2,
+            "answer": "There were"
+          },
+          {
+            "id": "there_to_be_rule_10",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Дополни краткий ответ:\n\n«Is there a lift in the building?» — «Yes, ___.»",
+            "explanation": "В кратком ответе повторяется та же конструкция, что и в вопросе: Is there...? → Yes, there is. / No, there isn't. it is здесь неверно — отвечать нужно той же структурой there + to be.",
+            "options": [
+              "there is",
+              "it is",
+              "there are"
+            ],
+            "correct_idx": 0,
+            "answer": "there is"
+          },
+          {
+            "id": "there_to_be_rule_11",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Найди ошибку:\n\n«There are a beautiful garden behind the house.»",
+            "explanation": "garden — существительное в единственном числе (есть артикль a), поэтому глагол должен быть IS, а не are. Правильно: There is a beautiful garden behind the house.",
+            "options": [
+              "garden → gardens",
+              "are → is",
+              "behind → in front of"
+            ],
+            "correct_idx": 1,
+            "answer": "are → is"
+          },
+          {
+            "id": "there_to_be_rule_12",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ two pens and a ruler on the desk.»",
+            "explanation": "При перечислении глагол согласуется с первым существительным после него — здесь это two pens (мн.ч.), поэтому ARE. Если бы список начинался с a ruler, было бы there is.",
+            "options": [
+              "There is",
+              "There are",
+              "It is"
+            ],
+            "correct_idx": 1,
+            "answer": "There are"
+          },
+          {
+            "id": "there_to_be_rule_13",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Выбери верную форму:\n\n«___ a party next Saturday.»",
+            "explanation": "next Saturday указывает на будущее, поэтому there WILL BE. there was — прошлое, there are — настоящее, оба по смыслу не подходят.",
+            "options": [
+              "There will be",
+              "There was",
+              "There are"
+            ],
+            "correct_idx": 0,
+            "answer": "There will be"
+          }
+        ],
+        "practice": [
+          {
+            "id": "there_to_be_practice_0",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму конструкции:\n\n«___ a clock on the wall.» (present tense)",
+            "explanation": "clock — ед.ч., настоящее время → There is.",
+            "answer": "There is"
+          },
+          {
+            "id": "there_to_be_practice_1",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ four seasons in a year.»",
+            "explanation": "four seasons — мн.ч., настоящее время → There are.",
+            "answer": "There are"
+          },
+          {
+            "id": "there_to_be_practice_2",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«Last year ___ a flood in our region.»",
+            "explanation": "Маркер Last year указывает на прошлое; a flood — ед.ч. → there was.",
+            "answer": "there was"
+          },
+          {
+            "id": "there_to_be_practice_3",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ many mistakes in your essay.»",
+            "explanation": "many mistakes — мн.ч., настоящее время → There are.",
+            "answer": "There are"
+          },
+          {
+            "id": "there_to_be_practice_4",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ some juice in the bottle.» (present tense)",
+            "explanation": "juice — неисчисляемое существительное → всегда there is (наст.); some в утверждении уместно.",
+            "answer": "There is"
+          },
+          {
+            "id": "there_to_be_practice_5",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ two windows in this room.» (present tense)",
+            "explanation": "two windows — мн.ч., настоящее время → There are.",
+            "answer": "There are"
+          },
+          {
+            "id": "there_to_be_practice_6",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«We can't make tea — ___ any milk in the fridge.»",
+            "explanation": "milk — неисчисляемое, настоящее время, отрицание (есть any) → there is not. (Допустимо также there is no milk, но при наличии слова any форма — is not.)",
+            "answer": "there is not"
+          },
+          {
+            "id": "there_to_be_practice_7",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ a post office near your house?» (present tense)",
+            "explanation": "Вопрос о наличии одного объекта (a post office, ед.ч.) → Is there...? — глагол выносится перед there.",
+            "answer": "Is there"
+          },
+          {
+            "id": "there_to_be_practice_8",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму (вопрос):\n\n«___ any free seats on the bus?» (present tense)",
+            "explanation": "Вопрос о нескольких объектах (seats, мн.ч.) → Are there...?; в вопросе используется any.",
+            "answer": "Are there"
+          },
+          {
+            "id": "there_to_be_practice_9",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ a lot of people at the party last night.»",
+            "explanation": "people — существительное во мн.ч.; last night указывает на прошлое → There were.",
+            "answer": "There were"
+          },
+          {
+            "id": "there_to_be_practice_10",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ a new shopping centre here next year.»",
+            "explanation": "next year — будущее; centre — ед.ч. → There will be (форма одинакова для любого числа).",
+            "answer": "There will be"
+          },
+          {
+            "id": "there_to_be_practice_11",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ heavy rain yesterday.»",
+            "explanation": "rain — неисчисляемое; yesterday — прошлое → There was.",
+            "answer": "There was"
+          },
+          {
+            "id": "there_to_be_practice_12",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«We were late, so ___ any tickets left.»",
+            "explanation": "tickets — мн.ч.; контекст в прошедшем времени (were late); отрицание (any) → there were not.",
+            "answer": "there were not"
+          },
+          {
+            "id": "there_to_be_practice_13",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму:\n\n«___ a sofa and two armchairs in the living room.» (present tense)",
+            "explanation": "Глагол согласуется с первым словом перечисления — a sofa (ед.ч.) → There is.",
+            "answer": "There is"
+          },
+          {
+            "id": "there_to_be_practice_14",
+            "type": "open",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Впиши нужную форму (перечисление):\n\n«___ three chairs and a table in the kitchen.» (present tense)",
+            "explanation": "Первое слово перечисления — three chairs (мн.ч.), поэтому глагол согласуется с ним → There are.",
+            "answer": "There are"
+          }
+        ],
+        "test": [
+          {
+            "id": "there_to_be_test_0",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A friend is visiting your city for the first time and asks where to withdraw some cash. You know an ATM is on the corner. Choose what to say in response:",
+            "explanation": "Сообщаем о наличии ОДНОГО объекта (an ATM, ед.ч.) → There is. Вариант There are не согласуется с ед.ч.; It is здесь неуместно — оно описывало бы уже известный предмет, а не сообщало о его наличии.",
+            "options": [
+              "There is an ATM on the corner.",
+              "There are an ATM on the corner.",
+              "It is an ATM on the corner."
+            ],
+            "correct_idx": 0,
+            "answer": "There is an ATM on the corner."
+          },
+          {
+            "id": "there_to_be_test_1",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are writing to a friend about your new school and want to boast that it has many clubs. Choose the appropriate response:",
+            "explanation": "clubs — мн.ч., речь о настоящем → There are. There is не согласуется с мн.ч., а there were перенесло бы ситуацию в прошлое, что искажает смысл («хвастаешься тем, что есть сейчас»).",
+            "options": [
+              "There is a lot of clubs in my new school.",
+              "There were a lot of clubs in my new school.",
+              "There are a lot of clubs in my new school."
+            ],
+            "correct_idx": 2,
+            "answer": "There are a lot of clubs in my new school."
+          },
+          {
+            "id": "there_to_be_test_2",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are in an unfamiliar city and want to ask a passer-by if a pharmacy is nearby. What is the correct way to ask?",
+            "explanation": "Вопрос о наличии одного объекта (a pharmacy, ед.ч.) → Is there...? с инверсией. Are there требует мн.ч.; третий вариант — это утверждение, а не вопрос.",
+            "options": [
+              "Are there a pharmacy near here?",
+              "Is there a pharmacy near here?",
+              "There is a pharmacy near here?"
+            ],
+            "correct_idx": 1,
+            "answer": "Is there a pharmacy near here?"
+          },
+          {
+            "id": "there_to_be_test_3",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "At the beginning of the lesson, the teacher asked whether anyone in the class had any questions about yesterday’s homework. Nobody had any questions. What would you say in response?",
+            "explanation": "questions — мн.ч.; речь о прошлой работе (контекст прошедшего времени) → There weren't. wasn't не согласуется с мн.ч., aren't перенесло бы фразу в настоящее.",
+            "options": [
+              "There wasn't any questions.",
+              "There aren't any questions.",
+              "There weren't any questions."
+            ],
+            "correct_idx": 2,
+            "answer": "There weren't any questions."
+          },
+          {
+            "id": "there_to_be_test_4",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are telling a classmate about yesterday’s concert and want to emphasize that a lot of people attended it. Choose the appropriate response:",
+            "explanation": "people — форма множественного числа; концерт был вчера (прошлое) → There were. was не согласуется с мн.ч., are — это настоящее время.",
+            "options": [
+              "There were a lot of people at the concert.",
+              "There was a lot of people at the concert.",
+              "There are a lot of people at the concert."
+            ],
+            "correct_idx": 0,
+            "answer": "There were a lot of people at the concert."
+          },
+          {
+            "id": "there_to_be_test_5",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "Your mother is calling to ask whether any milk is left at home so she can decide if she needs to stop by the store. No milk is left. What would you say in response?",
+            "explanation": "milk — неисчисляемое → форма isn't (ед.ч.); в отрицании используется any. aren't не сочетается с неисчисляемым, а вариант с is any вообще не выражает отрицания.",
+            "options": [
+              "There aren't any milk.",
+              "There isn't any milk.",
+              "There is any milk."
+            ],
+            "correct_idx": 1,
+            "answer": "There isn't any milk."
+          },
+          {
+            "id": "there_to_be_test_6",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A friend is planning a party and asks whether music will be played there. You want to assure him that music will definitely be part of the event. Choose the appropriate response:",
+            "explanation": "Вопрос о будущем событии → There will be. There was — это прошлое, There is — настоящее; оба не передают, что музыка БУДЕТ.",
+            "options": [
+              "There was music.",
+              "There will be music.",
+              "There is music."
+            ],
+            "correct_idx": 1,
+            "answer": "There will be music."
+          },
+          {
+            "id": "there_to_be_test_7",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are describing your room in a text message: it contains one bed and two chairs. Choose the appropriate response:",
+            "explanation": "При перечислении глагол согласуется с первым словом — a bed (ед.ч.) → There is. There are не согласуется с первым словом, а there were перенесло бы описание в прошлое.",
+            "options": [
+              "There are a bed and two chairs in my room.",
+              "There were a bed and two chairs in my room.",
+              "There is a bed and two chairs in my room."
+            ],
+            "correct_idx": 2,
+            "answer": "There is a bed and two chairs in my room."
+          },
+          {
+            "id": "there_to_be_test_8",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A tour guide explains that several secret rooms are hidden in this castle. Choose the guide’s remark:",
+            "explanation": "rooms — мн.ч. → There are; some («несколько») уместно в утверждении. There is не согласуется с мн.ч., It is не выражает наличия.",
+            "options": [
+              "There is some secret rooms in this castle.",
+              "It is some secret rooms in this castle.",
+              "There are some secret rooms in this castle."
+            ],
+            "correct_idx": 2,
+            "answer": "There are some secret rooms in this castle."
+          },
+          {
+            "id": "there_to_be_test_9",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are warning a friend that a test will take place at school tomorrow. Choose the appropriate response:",
+            "explanation": "tomorrow — будущее, test — ед.ч. → There will be. There was противоречит слову tomorrow, There are не согласуется с единственным числом.",
+            "options": [
+              "There was a test tomorrow.",
+              "There will be a test tomorrow.",
+              "There are a test tomorrow."
+            ],
+            "correct_idx": 1,
+            "answer": "There will be a test tomorrow."
+          },
+          {
+            "id": "there_to_be_test_10",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A friend asks how many bedrooms your house has. The answer is three. Choose the appropriate response:",
+            "explanation": "three bedrooms — мн.ч., речь о настоящем → There are. There is не согласуется с мн.ч., there were неуместно перенесло бы в прошлое.",
+            "options": [
+              "There is three bedrooms in my house.",
+              "There were three bedrooms in my house.",
+              "There are three bedrooms in my house."
+            ],
+            "correct_idx": 2,
+            "answer": "There are three bedrooms in my house."
+          },
+          {
+            "id": "there_to_be_test_11",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "During an exam, you realize that you are running out of time and want to tell your neighbour that very little time remains. Choose the appropriate response:",
+            "explanation": "time — неисчисляемое → isn't + much. aren't не сочетается с неисчисляемым, а many употребляется только с исчисляемыми существительными.",
+            "options": [
+              "There aren't much time left.",
+              "There isn't many time left.",
+              "There isn't much time left."
+            ],
+            "correct_idx": 2,
+            "answer": "There isn't much time left."
+          },
+          {
+            "id": "there_to_be_test_12",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A friend asks whether any interesting paintings were on display at yesterday’s exhibition. You liked several of them. Choose the appropriate response:",
+            "explanation": "pictures — мн.ч.; выставка была в прошлом → There were; a few («несколько») сочетается с исчисляемыми. There are — настоящее, was — единственное число.",
+            "options": [
+              "There are a few interesting pictures.",
+              "There were a few interesting pictures.",
+              "There was a few interesting pictures."
+            ],
+            "correct_idx": 1,
+            "answer": "There were a few interesting pictures."
+          },
+          {
+            "id": "there_to_be_test_13",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "You are writing a notice for the school bulletin board announcing a concert planned for Saturday. Choose the appropriate wording:",
+            "explanation": "Запланированное будущее событие → there is going to be; concert — ед.ч., поэтому is. are не согласуется с ед.ч., was — прошедшее время.",
+            "options": [
+              "There is going to be a concert on Saturday.",
+              "There are going to be a concert on Saturday.",
+              "There was going to be a concert on Saturday."
+            ],
+            "correct_idx": 0,
+            "answer": "There is going to be a concert on Saturday."
+          },
+          {
+            "id": "there_to_be_test_14",
+            "type": "choice",
+            "code": "2.4.5",
+            "task_type": "",
+            "context": "A tourist asks whether the museum has any cafés where visitors can get a snack. You decide to ask a member of staff. How would you phrase the question correctly?",
+            "explanation": "cafés — мн.ч. → Are there...?; в вопросе используется any. Is there требует ед.ч., а второй вариант не является вопросом (нет инверсии).",
+            "options": [
+              "Is there any cafés in the museum?",
+              "There are any cafés in the museum?",
+              "Are there any cafés in the museum?"
+            ],
+            "correct_idx": 2,
+            "answer": "Are there any cafés in the museum?"
+          }
+        ]
+      }
+    }
+  ]
+}

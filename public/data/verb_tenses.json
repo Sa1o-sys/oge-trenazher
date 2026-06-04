@@ -1,0 +1,1647 @@
+{
+  "id": "verb_tenses",
+  "name": "Видовременные формы глагола",
+  "icon": "⏳",
+  "subtopics": [
+    {
+      "id": "verb_tenses_main",
+      "name": "Видовременные формы глагола",
+      "description_items": [
+        [
+          "2.4.30",
+          "Present Simple"
+        ],
+        [
+          "2.4.30",
+          "Past Simple"
+        ],
+        [
+          "2.4.30",
+          "Future Simple"
+        ],
+        [
+          "2.4.30",
+          "Present Continuous"
+        ],
+        [
+          "2.4.30",
+          "Past Continuous"
+        ],
+        [
+          "2.4.30",
+          "Present Perfect"
+        ],
+        [
+          "2.4.30",
+          "Past Perfect"
+        ],
+        [
+          "2.4.30",
+          "Present Perfect Continuous"
+        ],
+        [
+          "2.4.32",
+          "Past Perfect Continuous"
+        ],
+        [
+          "2.4.19",
+          "To be going to"
+        ]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "verb_tenses_razberis_0",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай:\n• She drinks coffee every morning.\n• She is drinking coffee now.\n\nПочему drinks, а потом is drinking?",
+            "explanation": "Present Simple (drinks) описывает регулярное, повторяющееся действие. Present Continuous (is drinking) — действие, происходящее прямо сейчас, в момент речи. Маркеры every morning ↔ now.",
+            "options": [
+              "drinks — регулярное действие (каждое утро); is drinking — действие в момент речи (сейчас)",
+              "Случайно, разницы нет",
+              "Это синонимы"
+            ],
+            "correct_idx": 0,
+            "answer": "drinks — регулярное действие (каждое утро); is drinking — действие в момент речи (сейчас)"
+          },
+          {
+            "id": "verb_tenses_razberis_1",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай:\n• I have lost my keys.\n• I lost my keys yesterday.\n\nЧем различаются have lost и lost?",
+            "explanation": "Present Perfect (have lost) подчёркивает результат, актуальный в настоящем, и не сочетается с точным временем. Past Simple (lost) называет факт в прошлом с указанием времени (yesterday).",
+            "options": [
+              "have lost — будущее",
+              "Нет разницы",
+              "have lost — важен результат сейчас (ключей нет), без точного времени; lost + yesterday — точное прошлое"
+            ],
+            "correct_idx": 2,
+            "answer": "have lost — важен результат сейчас (ключей нет), без точного времени; lost + yesterday — точное прошлое"
+          },
+          {
+            "id": "verb_tenses_razberis_2",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«We visited London last summer.»\n\nЧто показывает visited + last summer?",
+            "explanation": "Past Simple обозначает завершённое действие в прошлом. Точное обстоятельство времени (last summer) — типичный маркер этого времени.",
+            "options": [
+              "Действие, которое происходит сейчас",
+              "Завершённое действие в прошлом с указанием времени",
+              "Действие в будущем"
+            ],
+            "correct_idx": 1,
+            "answer": "Завершённое действие в прошлом с указанием времени"
+          },
+          {
+            "id": "verb_tenses_razberis_3",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«I think it will rain tomorrow.»\n\nЧто выражает will rain?",
+            "explanation": "Future Simple (will + V) в данном случае выражает прогноз, предположение о будущем. Часто вводится словами I think, I believe, probably.",
+            "options": [
+              "Предсказание / прогноз о будущем",
+              "Привычку",
+              "Завершённое прошлое"
+            ],
+            "correct_idx": 0,
+            "answer": "Предсказание / прогноз о будущем"
+          },
+          {
+            "id": "verb_tenses_razberis_4",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«She has been studying English for five years.»\n\nЧто подчёркивает has been studying for five years?",
+            "explanation": "Present Perfect Continuous (have/has been + Ving) подчёркивает продолжительность действия, начавшегося в прошлом и идущего к настоящему. Маркер for five years.",
+            "options": [
+              "Однократное завершённое действие",
+              "Привычку за эти 5 лет",
+              "Длительность действия, которое началось в прошлом и продолжается до сих пор"
+            ],
+            "correct_idx": 2,
+            "answer": "Длительность действия, которое началось в прошлом и продолжается до сих пор"
+          },
+          {
+            "id": "verb_tenses_razberis_5",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«We are going to buy a new car next month.»\n\nЧто выражает are going to buy?",
+            "explanation": "Конструкция to be going to + V выражает заранее обдуманное намерение, план на будущее. Мы СОБИРАЕМСЯ купить новую машину в следующем месяце.",
+            "options": [
+              "Заранее запланированное намерение",
+              "Действие прямо сейчас",
+              "Регулярную привычку"
+            ],
+            "correct_idx": 0,
+            "answer": "Заранее запланированное намерение"
+          },
+          {
+            "id": "verb_tenses_razberis_6",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«I was reading when the phone rang.»\n\nКакое действие было длительным фоном, а какое его прервало?",
+            "explanation": "Past Continuous (was reading) описывает длительное действие-фон; Past Simple (rang) — короткое действие, которое его прервало. Союз when соединяет их. Я читал (что делал?), когда зазвонил телефона (что сделал?)",
+            "options": [
+              "Оба коротких действия",
+              "was reading — длительный фон; rang — короткое действие, прервавшее его",
+              "rang было длительным, а was reading - фоновым"
+            ],
+            "correct_idx": 1,
+            "answer": "was reading — длительный фон; rang — короткое действие, прервавшее его"
+          },
+          {
+            "id": "verb_tenses_razberis_7",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«When I arrived, the train had already left.»\n\nКакое действие произошло раньше?",
+            "explanation": "Past Perfect (had left) обозначает действие, завершившееся ДО другого прошлого действия (arrived). Маркер already усиливает «к тому моменту уже».",
+            "options": [
+              "Действия произошли одновременно",
+              "had left - поезд ушёл ДО моего прихода (более раннее прошлое)",
+              "arrived произошло раньше, а had left - позже"
+            ],
+            "correct_idx": 1,
+            "answer": "had left - поезд ушёл ДО моего прихода (более раннее прошлое)"
+          },
+          {
+            "id": "verb_tenses_razberis_8",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«Water boils at 100 degrees.»\n\nПочему Present Simple?",
+            "explanation": "Present Simple используется для общеизвестных фактов и законов природы, которые верны всегда. Мы знаем, что вода всегда закипает при 100 градусах.",
+            "options": [
+              "Это происходит прямо сейчас",
+              "Это показывает будущее",
+              "Это общеизвестный факт / закон природы"
+            ],
+            "correct_idx": 0,
+            "answer": "Это происходит прямо сейчас"
+          },
+          {
+            "id": "verb_tenses_razberis_9",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«I am meeting my friend at 6 tomorrow.»\n\nО каком времени идёт речь?",
+            "explanation": "Present Continuous может выражать заранее назначенную договорённость на БУДУЩЕЕ (есть конкретное время и партнёр). Маркер at 6 tomorrow.",
+            "options": [
+              "О запланированной встрече в будущем",
+              "О прошлом событии",
+              "О привычке"
+            ],
+            "correct_idx": 0,
+            "answer": "О запланированной встрече в будущем"
+          },
+          {
+            "id": "verb_tenses_razberis_10",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«He has just finished his homework.»\n\nЧто добавляет just?",
+            "explanation": "Present Perfect с just означает только что завершённое действие с актуальным результатом. just, already, yet — типичные маркеры Present Perfect.",
+            "options": [
+              "Что действие будет совершено в будущем",
+              "Что действие только что завершилось, и результат виден сейчас",
+              "Что действие регулярное"
+            ],
+            "correct_idx": 1,
+            "answer": "Что действие только что завершилось, и результат виден сейчас"
+          },
+          {
+            "id": "verb_tenses_razberis_11",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«While I was cooking, my sister was cleaning.»\n\nЧто показывают Past Continuous с while?",
+            "explanation": "Два Past Continuous с while описывают параллельные длительные действия, протекавшие одновременно в прошлом.",
+            "options": [
+              "Завершённые действия",
+              "Будущие действия",
+              "Два действия, происходившие одновременно"
+            ],
+            "correct_idx": 2,
+            "answer": "Два действия, происходившие одновременно"
+          },
+          {
+            "id": "verb_tenses_razberis_12",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай:\n• Have you ever been to Paris?\n• Did you go to Paris last year?\n\nПочему разные времена?",
+            "explanation": "Present Perfect используется для жизненного опыта без указания времени (ever). Как только появляется точное время (last year), нужно Past Simple.",
+            "options": [
+              "Они взаимозаменяемы, можно использовать и то, и другое время",
+              "Оба предложения про будущее",
+              "ever (опыт без даты) → Present Perfect; last year (точное время) → Past Simple"
+            ],
+            "correct_idx": 2,
+            "answer": "ever (опыт без даты) → Present Perfect; last year (точное время) → Past Simple"
+          },
+          {
+            "id": "verb_tenses_razberis_13",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«They have known each other since childhood.»\n\nНа что указывает have known + since?",
+            "explanation": "Present Perfect с since показывает, что состояние началось в прошлом и продолжается в настоящем. since — точка отсчёта (с какого-то момента).",
+            "options": [
+              "Состояние завершилось в детстве",
+              "Состояние началось в прошлом и длится до сих пор",
+              "Будущее действие"
+            ],
+            "correct_idx": 1,
+            "answer": "Состояние началось в прошлом и длится до сих пор"
+          },
+          {
+            "id": "verb_tenses_razberis_14",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«Look at those black clouds! It is going to rain.»\n\nПочему going to, а не will (предсказание)?",
+            "explanation": "to be going to используется для прогноза, основанного на видимых сейчас фактах (чёрные тучи). will выражает предположение БЕЗ такой опоры.",
+            "options": [
+              "Есть видимое доказательство сейчас (black clouds) → going to",
+              "Это спонтанное решение",
+              "Между will и going to нет разницы, они взаимозаменяемые"
+            ],
+            "correct_idx": 0,
+            "answer": "Есть видимое доказательство сейчас (black clouds) → going to"
+          },
+          {
+            "id": "verb_tenses_razberis_15",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«Your hands are dirty. \nHave you been working in the garden?»\n\nЧто подчёркивает have you been working?",
+            "explanation": "Present Perfect Continuous подчёркивает длительность недавнего процесса, чей результат заметен в настоящем (dirty hands).",
+            "options": [
+              "Длительный недавний процесс, результат которого виден сейчас",
+              "Действие в далёком прошлом",
+              "Расписание"
+            ],
+            "correct_idx": 0,
+            "answer": "Длительный недавний процесс, результат которого виден сейчас"
+          },
+          {
+            "id": "verb_tenses_razberis_16",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«The phone is ringing.» — «I'll answer it.»\n\nЧто выражает I'll answer?",
+            "explanation": "Future Simple (will) выражает спонтанное решение, принятое прямо в момент речи, как реакцию на ситуацию.",
+            "options": [
+              "Заранее запланированное намерение",
+              "Спонтанное решение, принятое в момент речи",
+              "Привычку"
+            ],
+            "correct_idx": 1,
+            "answer": "Спонтанное решение, принятое в момент речи"
+          },
+          {
+            "id": "verb_tenses_razberis_17",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«After she had cooked dinner, she watched TV.»\n\nЧто показывает had cooked перед watched?",
+            "explanation": "Past Perfect (had cooked) показывает действие, предшествующее другому действию в прошлом (watched). Порядок: сначала приготовила, потом смотрела ТВ.",
+            "options": [
+              "Оба действия одновременны",
+              "ТВ смотрели первым",
+              "Ужин был приготовлен до того, как она стала смотреть ТВ"
+            ],
+            "correct_idx": 2,
+            "answer": "Ужин был приготовлен до того, как она стала смотреть ТВ"
+          },
+          {
+            "id": "verb_tenses_razberis_18",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай:\n• He doesn't smoke.\n• He isn't smoking now.\n\nВ чём разница?",
+            "explanation": "Present Simple (doesn't smoke) отрицает привычку/факт вообще. Present Continuous (isn't smoking) отрицает действие именно в текущий момент.",
+            "options": [
+              "doesn't smoke — вообще не курит (нет такой привычки); isn't smoking — не курит в данный момент",
+              "Это одно и то же, времена взаимозаменяемые",
+              "Оба предложения про будущее"
+            ],
+            "correct_idx": 0,
+            "answer": "doesn't smoke — вообще не курит (нет такой привычки); isn't smoking — не курит в данный момент"
+          },
+          {
+            "id": "verb_tenses_razberis_19",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«He woke up, got dressed and left.»\n\nЧто показывают три формы Past Simple подряд?",
+            "explanation": "Несколько Past Simple подряд передают цепочку последовательных завершённых действий в прошлом (одно за другим).",
+            "options": [
+              "Последовательность завершённых действий в прошлом",
+              "Одновременные действия",
+              "Длительные действия, происходящие в один момент"
+            ],
+            "correct_idx": 0,
+            "answer": "Последовательность завершённых действий в прошлом"
+          },
+          {
+            "id": "verb_tenses_razberis_20",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«I haven't finished my homework yet.»\n\nЧто значит haven't finished yet?",
+            "explanation": "Present Perfect с yet (в отрицании) означает, что ожидаемое действие к моменту речи ещё не выполнено. yet — маркер Present Perfect.",
+            "options": [
+              "Уже закончил выполнять",
+              "Закончу домашнюю работу завтра",
+              "К настоящему моменту ещё не закончил (но это ожидается)"
+            ],
+            "correct_idx": 2,
+            "answer": "К настоящему моменту ещё не закончил (но это ожидается)"
+          },
+          {
+            "id": "verb_tenses_razberis_21",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«This bag is heavy.» — «I'll carry it for you.»\n\nЧто выражает I'll carry?",
+            "explanation": "Future Simple (will) выражает спонтанное предложение помощи, возникшее как реакция на ситуацию.",
+            "options": [
+              "Привычку",
+              "Готовность помочь - решение, принятое в момент речи",
+              "Прошлое действие"
+            ],
+            "correct_idx": 1,
+            "answer": "Готовность помочь - решение, принятое в момент речи"
+          },
+          {
+            "id": "verb_tenses_razberis_22",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай:\n• I have painted the fence.\n• I have been painting the fence.\n\nЧто подчёркивает have been painting?",
+            "explanation": "Present Perfect (have painted) акцентирует результат — забор покрашен. Present Perfect Continuous (have been painting) акцентирует процесс и длительность, без указания на завершённость.",
+            "options": [
+              "Что забор полностью готов",
+              "Сколько именно слоёв краски",
+              "Сам процесс и его длительность (возможно, ещё не закончен)"
+            ],
+            "correct_idx": 2,
+            "answer": "Сам процесс и его длительность (возможно, ещё не закончен)"
+          },
+          {
+            "id": "verb_tenses_razberis_23",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Прочитай: \n«We are flying to Rome on Monday.»\n\nЧто выражает are flying здесь?",
+            "explanation": "Present Continuous для будущего выражает запланированную, уже организованную договорённость (есть билеты, дата). Маркер on Monday.",
+            "options": [
+              "Действие прямо сейчас",
+              "Заранее назначенную договорённость на будущее (есть билеты и время)",
+              "Привычку"
+            ],
+            "correct_idx": 1,
+            "answer": "Заранее назначенную договорённость на будущее (есть билеты и время)"
+          }
+        ],
+        "rule": [
+          {
+            "id": "verb_tenses_rule_0",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«My brother ___ football every weekend.»",
+            "explanation": "every weekend — маркер Present Simple; brother (3-е л. ед.ч.) → plays (с окончанием -s).",
+            "options": [
+              "plays",
+              "play",
+              "is playing"
+            ],
+            "correct_idx": 0,
+            "answer": "plays"
+          },
+          {
+            "id": "verb_tenses_rule_1",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«We ___ a great film yesterday.»",
+            "explanation": "yesterday — точное прошлое → Past Simple (watched). С yesterday Present Perfect невозможен.",
+            "options": [
+              "watch",
+              "have watched",
+              "watched"
+            ],
+            "correct_idx": 2,
+            "answer": "watched"
+          },
+          {
+            "id": "verb_tenses_rule_2",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«Be quiet! The baby ___.»",
+            "explanation": "Be quiet! указывает на действие в момент речи → Present Continuous (is sleeping).",
+            "options": [
+              "sleeps",
+              "is sleeping",
+              "slept"
+            ],
+            "correct_idx": 1,
+            "answer": "is sleeping"
+          },
+          {
+            "id": "verb_tenses_rule_3",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I'm sure she ___ the exam.» (предсказание)",
+            "explanation": "I'm sure + предсказание о будущем → Future Simple (will pass).",
+            "options": [
+              "passes",
+              "will pass",
+              "passed"
+            ],
+            "correct_idx": 1,
+            "answer": "will pass"
+          },
+          {
+            "id": "verb_tenses_rule_4",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I ___ TV when you called.»",
+            "explanation": "Длительное действие, прерванное другим (when you called) → Past Continuous (was watching).",
+            "options": [
+              "was watching",
+              "watched",
+              "am watching"
+            ],
+            "correct_idx": 0,
+            "answer": "was watching"
+          },
+          {
+            "id": "verb_tenses_rule_5",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I ___ my keys. I can't find them.»",
+            "explanation": "Результат важен сейчас (ключей нет, не могу найти), время не указано → Present Perfect (have lost).",
+            "options": [
+              "have lost",
+              "lost",
+              "lose"
+            ],
+            "correct_idx": 0,
+            "answer": "have lost"
+          },
+          {
+            "id": "verb_tenses_rule_6",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«They ___ get married next spring.»",
+            "explanation": "Заранее обдуманное намерение на будущее → to be going to (are going to).",
+            "options": [
+              "go to",
+              "went to",
+              "are going to"
+            ],
+            "correct_idx": 2,
+            "answer": "are going to"
+          },
+          {
+            "id": "verb_tenses_rule_7",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«She ___ for two hours and she's tired.»",
+            "explanation": "for two hours + результат сейчас (устала) → Present Perfect Continuous (has been running).",
+            "options": [
+              "runs",
+              "has been running",
+              "ran"
+            ],
+            "correct_idx": 1,
+            "answer": "has been running"
+          },
+          {
+            "id": "verb_tenses_rule_8",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«By the time we got home, the rain ___.»",
+            "explanation": "By the time + действие, завершившееся раньше другого прошлого → Past Perfect (had stopped).",
+            "options": [
+              "stopped",
+              "stops",
+              "had stopped"
+            ],
+            "correct_idx": 2,
+            "answer": "had stopped"
+          },
+          {
+            "id": "verb_tenses_rule_9",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I ___ this song. It's wonderful.»",
+            "explanation": "love — глагол состояния (stative), не употребляется в Continuous → Present Simple (love).",
+            "options": [
+              "love",
+              "am loving",
+              "was loving"
+            ],
+            "correct_idx": 0,
+            "answer": "love"
+          },
+          {
+            "id": "verb_tenses_rule_10",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери слово:\n\n«Have you finished your work ___?»",
+            "explanation": "В вопросах и отрицаниях с Present Perfect используется yet («уже / ещё»). already и just — в утверждениях.",
+            "options": [
+              "already",
+              "just",
+              "yet"
+            ],
+            "correct_idx": 2,
+            "answer": "yet"
+          },
+          {
+            "id": "verb_tenses_rule_11",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Найди ошибку:\n\n«I have seen this film two days ago.»",
+            "explanation": "ago указывает на точное прошлое → нужен Past Simple (saw), а не Present Perfect. Present Perfect не сочетается с ago.",
+            "options": [
+              "film → movie",
+              "have seen → saw",
+              "ago → before"
+            ],
+            "correct_idx": 1,
+            "answer": "have seen → saw"
+          },
+          {
+            "id": "verb_tenses_rule_12",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери слово:\n\n«He has worked here ___ 2019.»",
+            "explanation": "since + точка отсчёта (год, дата). for использовался бы с отрезком времени (for five years).",
+            "options": [
+              "since",
+              "for",
+              "ago"
+            ],
+            "correct_idx": 0,
+            "answer": "since"
+          },
+          {
+            "id": "verb_tenses_rule_13",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«She ___ to school by bus last year.»",
+            "explanation": "last year → Past Simple; go — неправильный глагол: go–went–gone, поэтому went.",
+            "options": [
+              "goed",
+              "went",
+              "go"
+            ],
+            "correct_idx": 1,
+            "answer": "went"
+          },
+          {
+            "id": "verb_tenses_rule_14",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму (договорённость на вечер):\n\n«What ___ you ___ this evening?»",
+            "explanation": "Запланированная договорённость на ближайшее будущее → Present Continuous (are you doing).",
+            "options": [
+              "do / do",
+              "did / do",
+              "are / doing"
+            ],
+            "correct_idx": 2,
+            "answer": "are / doing"
+          },
+          {
+            "id": "verb_tenses_rule_15",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«While she ___, the lights went out.»",
+            "explanation": "While + длительное фоновое действие в прошлом → Past Continuous (was reading).",
+            "options": [
+              "read",
+              "reads",
+              "was reading"
+            ],
+            "correct_idx": 2,
+            "answer": "was reading"
+          },
+          {
+            "id": "verb_tenses_rule_16",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«Look! The car ___ crash!»",
+            "explanation": "Есть видимое доказательство прямо сейчас → to be going to (is going to).",
+            "options": [
+              "is going to",
+              "will",
+              "crashes"
+            ],
+            "correct_idx": 0,
+            "answer": "is going to"
+          },
+          {
+            "id": "verb_tenses_rule_17",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I ___ three coffees today.» (день ещё не закончился)",
+            "explanation": "today — незавершённый период + актуальный результат → Present Perfect (have drunk).",
+            "options": [
+              "drank",
+              "have drunk",
+              "drink"
+            ],
+            "correct_idx": 1,
+            "answer": "have drunk"
+          },
+          {
+            "id": "verb_tenses_rule_18",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I ___ this book for a week, but I haven't finished it.»",
+            "explanation": "for a week + процесс не завершён → Present Perfect Continuous (have been reading).",
+            "options": [
+              "have been reading",
+              "have read",
+              "read"
+            ],
+            "correct_idx": 0,
+            "answer": "have been reading"
+          },
+          {
+            "id": "verb_tenses_rule_19",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«Don't worry, I ___ help you.»",
+            "explanation": "Обещание, принятое в момент речи → Future Simple (will help).",
+            "options": [
+              "am helping",
+              "will",
+              "helped"
+            ],
+            "correct_idx": 1,
+            "answer": "will"
+          },
+          {
+            "id": "verb_tenses_rule_20",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«When I came in, everyone ___ already ___.»",
+            "explanation": "Действие, завершившееся раньше другого прошлого (came in) → Past Perfect (had already left).",
+            "options": [
+              "has / left",
+              "did / leave",
+              "had / left"
+            ],
+            "correct_idx": 2,
+            "answer": "had / left"
+          },
+          {
+            "id": "verb_tenses_rule_21",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«She's very pale. I think she ___ faint.»",
+            "explanation": "Предсказание на основе видимого признака (бледность) → to be going to (is going to).",
+            "options": [
+              "faints",
+              "is going to",
+              "was going to"
+            ],
+            "correct_idx": 1,
+            "answer": "is going to"
+          },
+          {
+            "id": "verb_tenses_rule_22",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму (расписание):\n\n«The train ___ at 7 a.m. tomorrow.»",
+            "explanation": "Действия по расписанию (транспорт, уроки) выражаются в Present Simple даже о будущем → leaves.",
+            "options": [
+              "leaves",
+              "is leaving",
+              "left"
+            ],
+            "correct_idx": 0,
+            "answer": "leaves"
+          },
+          {
+            "id": "verb_tenses_rule_23",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«___ you ever ___ sushi?»",
+            "explanation": "ever (жизненный опыт без даты) → Present Perfect (Have you ever eaten).",
+            "options": [
+              "Did / eat",
+              "Do / eat",
+              "Have / eaten"
+            ],
+            "correct_idx": 2,
+            "answer": "Have / eaten"
+          },
+          {
+            "id": "verb_tenses_rule_24",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«Look! It ___ outside.»",
+            "explanation": "Look! указывает на действие в момент речи → Present Continuous (is snowing).",
+            "options": [
+              "is snowing",
+              "snows",
+              "snowed"
+            ],
+            "correct_idx": 0,
+            "answer": "is snowing"
+          },
+          {
+            "id": "verb_tenses_rule_25",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«I can't open the door. I ___ the key.»",
+            "explanation": "Результат актуален сейчас (не могу открыть), время не указано → Present Perfect (have lost).",
+            "options": [
+              "lose",
+              "lost",
+              "have lost"
+            ],
+            "correct_idx": 2,
+            "answer": "have lost"
+          },
+          {
+            "id": "verb_tenses_rule_26",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«When the bell ___, the pupils ran out.»",
+            "explanation": "Короткое завершённое действие в прошлом (звонок прозвенел) → Past Simple (rang). Последовательные действия.",
+            "options": [
+              "was ringing",
+              "rang",
+              "rings"
+            ],
+            "correct_idx": 1,
+            "answer": "rang"
+          },
+          {
+            "id": "verb_tenses_rule_27",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«There isn't a cloud in the sky. \nIt ___ be a sunny day.»",
+            "explanation": "Прогноз на основе видимого факта (ясное небо) → to be going to (is going to).",
+            "options": [
+              "is going to",
+              "was going to",
+              "goes to"
+            ],
+            "correct_idx": 0,
+            "answer": "is going to"
+          },
+          {
+            "id": "verb_tenses_rule_28",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«After he ___ breakfast, he left for work.»",
+            "explanation": "Первое из двух прошлых действий (сначала позавтракал, потом ушёл) → Past Perfect (had finished).",
+            "options": [
+              "has finished",
+              "had finished",
+              "finishes"
+            ],
+            "correct_idx": 1,
+            "answer": "had finished"
+          },
+          {
+            "id": "verb_tenses_rule_29",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Выбери форму:\n\n«How long ___ you ___ here?» (всё ещё ждет)",
+            "explanation": "How long + действие, длящееся до настоящего момента → Present Perfect Continuous (have you been waiting).",
+            "options": [
+              "did / wait",
+              "do / wait",
+              "have / been waiting"
+            ],
+            "correct_idx": 2,
+            "answer": "have / been waiting"
+          }
+        ],
+        "practice": [
+          {
+            "id": "verb_tenses_practice_0",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Look! The children (PLAY) in the yard.»",
+            "explanation": "Look! → действие в момент речи → Present Continuous: are playing (дети, мн.ч.).",
+            "answer": "are playing"
+          },
+          {
+            "id": "verb_tenses_practice_1",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«We (BUY) this house in 2015.»",
+            "explanation": "in 2015 → точное прошлое → Past Simple. buy–bought (неправильный глагол).",
+            "answer": "bought"
+          },
+          {
+            "id": "verb_tenses_practice_2",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«I (NEVER / SEE) such a beautiful sunset.»",
+            "explanation": "never (опыт за всю жизнь) → Present Perfect: have never seen. see–seen.",
+            "answer": "have never seen"
+          },
+          {
+            "id": "verb_tenses_practice_3",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«I think people (LIVE) on Mars one day.»",
+            "explanation": "I think + прогноз о будущем (one day) → Future Simple: will live.",
+            "answer": "will live"
+          },
+          {
+            "id": "verb_tenses_practice_4",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«My father usually (GET) up at six.»",
+            "explanation": "usually → регулярная привычка → Present Simple; father (3-е л. ед.ч.) → gets.",
+            "answer": "gets"
+          },
+          {
+            "id": "verb_tenses_practice_5",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«At 8 p.m. yesterday I (DO) my homework.»",
+            "explanation": "At 8 p.m. yesterday → действие в процессе в конкретный момент прошлого → Past Continuous: was doing.",
+            "answer": "was doing"
+          },
+          {
+            "id": "verb_tenses_practice_6",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«They (WAIT) for the bus for twenty minutes.»",
+            "explanation": "for twenty minutes + действие длится до сих пор → Present Perfect Continuous: have been waiting.",
+            "answer": "have been waiting"
+          },
+          {
+            "id": "verb_tenses_practice_7",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«She told me she (ALREADY / FINISH) the report.»",
+            "explanation": "Действие произошло раньше другого прошлого (told) → Past Perfect: had already finished.",
+            "answer": "had already finished"
+          },
+          {
+            "id": "verb_tenses_practice_8",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«We've decided: we (TRAVEL) to Spain this summer.»",
+            "explanation": "Обдуманное намерение/решение → to be going to: are going to travel.",
+            "answer": "are going to travel"
+          },
+          {
+            "id": "verb_tenses_practice_9",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«I (MEET) the dentist at 3 tomorrow.»",
+            "explanation": "Назначенная встреча на будущее (at 3 tomorrow) → Present Continuous: am meeting.",
+            "answer": "am meeting"
+          },
+          {
+            "id": "verb_tenses_practice_10",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«He (TAKE) the dog for a walk an hour ago.»",
+            "explanation": "an hour ago → точное прошлое → Past Simple. take–took.",
+            "answer": "took"
+          },
+          {
+            "id": "verb_tenses_practice_11",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Wait, I (JUST / SEND) you the file.»",
+            "explanation": "just + актуальный результат → Present Perfect: have just sent. send–sent.",
+            "answer": "have just sent"
+          },
+          {
+            "id": "verb_tenses_practice_12",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«The Earth (GO) round the Sun.»",
+            "explanation": "Общеизвестный факт → Present Simple; the Earth (ед.ч.) → goes.",
+            "answer": "goes"
+          },
+          {
+            "id": "verb_tenses_practice_13",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Don't worry, I (NOT / TELL) anyone.»",
+            "explanation": "Обещание в момент речи → Future Simple отрицание: won't tell (will not).",
+            "answer": "will not tell"
+          },
+          {
+            "id": "verb_tenses_practice_14",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«When the teacher came in, the pupils (TALK) loudly.»",
+            "explanation": "Длительное фоновое действие в момент прошлого (came in прервал) → Past Continuous: were talking.",
+            "answer": "were talking"
+          },
+          {
+            "id": "verb_tenses_practice_15",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«We (KNOW) each other since school.»",
+            "explanation": "since school → состояние длится до сих пор → Present Perfect: have known (know — глагол состояния).",
+            "answer": "have known"
+          },
+          {
+            "id": "verb_tenses_practice_16",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«By the time the film started, we (BUY) popcorn.»",
+            "explanation": "By the time + действие раньше другого прошлого → Past Perfect: had bought. buy–bought.",
+            "answer": "had bought"
+          },
+          {
+            "id": "verb_tenses_practice_17",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«You're out of breath. (YOU / RUN)?»",
+            "explanation": "Видимый результат недавнего длительного процесса → Present Perfect Continuous: Have you been running.",
+            "answer": "Have you been running"
+          },
+          {
+            "id": "verb_tenses_practice_18",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«My sister (NOT / EAT) meat.»",
+            "explanation": "Постоянный факт/привычка → Present Simple отрицание; sister (3-е л. ед.ч.) → doesn't eat.",
+            "answer": "does not eat"
+          },
+          {
+            "id": "verb_tenses_practice_19",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«What time (YOU / WAKE) up yesterday?»",
+            "explanation": "yesterday → Past Simple, вопрос с did: did you wake up.",
+            "answer": "did you wake"
+          },
+          {
+            "id": "verb_tenses_practice_20",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Be careful! You (STAND) on my foot.»",
+            "explanation": "Действие в момент речи → Present Continuous: are standing.",
+            "answer": "are standing"
+          },
+          {
+            "id": "verb_tenses_practice_21",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«I'm sure our team (WIN) the match.»",
+            "explanation": "I'm sure + предсказание → Future Simple: will win.",
+            "answer": "will win"
+          },
+          {
+            "id": "verb_tenses_practice_22",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«She (NOT / FINISH) her project yet.»",
+            "explanation": "yet → Present Perfect отрицание; she → hasn't finished.",
+            "answer": "has not finished"
+          },
+          {
+            "id": "verb_tenses_practice_23",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«They (NOT / GO) to the party last weekend.»",
+            "explanation": "last weekend → Past Simple отрицание: didn't go.",
+            "answer": "did not go"
+          },
+          {
+            "id": "verb_tenses_practice_24",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«He (START) a new job next month — he's already signed the contract.»",
+            "explanation": "Решение принято (контракт подписан) → to be going to: is going to start.",
+            "answer": "is going to start"
+          },
+          {
+            "id": "verb_tenses_practice_25",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«How long (YOU / STUDY) Chinese?»",
+            "explanation": "How long + действие, длящееся до настоящего → Present Perfect Continuous: have you been studying.",
+            "answer": "have you been studying"
+          },
+          {
+            "id": "verb_tenses_practice_26",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«I didn't recognise her because she (CHANGE) a lot.»",
+            "explanation": "Причина раньше другого прошлого (didn't recognise) → Past Perfect: had changed.",
+            "answer": "had changed"
+          },
+          {
+            "id": "verb_tenses_practice_27",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Why (YOU / CRY)? What's wrong?»",
+            "explanation": "Действие в момент речи → Present Continuous, вопрос: are you crying.",
+            "answer": "are you crying"
+          },
+          {
+            "id": "verb_tenses_practice_28",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Shakespeare (WRITE) many famous plays.»",
+            "explanation": "Завершённый факт в прошлом → Past Simple. write–wrote.",
+            "answer": "wrote"
+          },
+          {
+            "id": "verb_tenses_practice_29",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Maybe it (SNOW) tonight.»",
+            "explanation": "Maybe + предположение о будущем → Future Simple: will snow.",
+            "answer": "will snow"
+          },
+          {
+            "id": "verb_tenses_practice_30",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«It's the best film I (EVER / SEE).»",
+            "explanation": "ever (опыт к настоящему моменту) → Present Perfect: have ever seen.",
+            "answer": "have ever seen"
+          },
+          {
+            "id": "verb_tenses_practice_31",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«This time last week we (LIE) on the beach.»",
+            "explanation": "This time last week → процесс в конкретный момент прошлого → Past Continuous: were lying. lie–lying.",
+            "answer": "were lying"
+          },
+          {
+            "id": "verb_tenses_practice_32",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Why are you wearing old clothes? — I (PAINT) the kitchen.»",
+            "explanation": "Намерение, объясняющее текущую ситуацию → to be going to: am going to paint.",
+            "answer": "am going to paint"
+          },
+          {
+            "id": "verb_tenses_practice_33",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«She felt nervous because she (NOT / FLY) before.»",
+            "explanation": "Опыт, предшествующий прошлому моменту (felt) → Past Perfect отрицание: hadn't flown. fly–flown.",
+            "answer": "had not flown"
+          },
+          {
+            "id": "verb_tenses_practice_34",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«My eyes hurt because I (LOOK) at the screen all day.»",
+            "explanation": "all day + результат сейчас (болят глаза) → Present Perfect Continuous: have been looking.",
+            "answer": "have been looking"
+          },
+          {
+            "id": "verb_tenses_practice_35",
+            "type": "open",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Раскрой скобки:\n\n«Bees (MAKE) honey.»",
+            "explanation": "Общеизвестный факт → Present Simple; bees (мн.ч.) → make.",
+            "answer": "make"
+          }
+        ],
+        "test": [
+          {
+            "id": "verb_tenses_test_0",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your friend calls, but you're standing at the stove and can't step away. You explain why you can't talk right now.\n«Sorry, I can't talk — I ___ dinner.»",
+            "explanation": "Действие происходит в момент речи → Present Continuous (am cooking).",
+            "options": [
+              "cook",
+              "am cooking",
+              "cooked"
+            ],
+            "correct_idx": 1,
+            "answer": "am cooking"
+          },
+          {
+            "id": "verb_tenses_test_1",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A classmate asks how your weekend was. On Saturday you saw a film at the cinema.\n«On Saturday I ___ to the cinema.»",
+            "explanation": "On Saturday — точное прошлое → Past Simple (went).",
+            "options": [
+              "went",
+              "go",
+              "have gone"
+            ],
+            "correct_idx": 0,
+            "answer": "went"
+          },
+          {
+            "id": "verb_tenses_test_2",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You come home with great news: the driving test result is in, and you succeeded. The result matters now.\n«Mum, I ___ my driving test!»",
+            "explanation": "Важен актуальный результат, время не указано → Present Perfect (have passed).",
+            "options": [
+              "have passed",
+              "passed",
+              "pass"
+            ],
+            "correct_idx": 0,
+            "answer": "have passed"
+          },
+          {
+            "id": "verb_tenses_test_3",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You and a friend are at a café. The waiter comes over, and you decide on the spot what to order.\n«I ___ a cup of tea, please.»",
+            "explanation": "Спонтанное решение в момент речи → Future Simple ('ll have).",
+            "options": [
+              "am having",
+              "had",
+              "'ll have"
+            ],
+            "correct_idx": 2,
+            "answer": "'ll have"
+          },
+          {
+            "id": "verb_tenses_test_4",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A friend asks about your holiday plans. You've already booked the tickets to Italy for July.\n«This summer we ___ to Italy.»",
+            "explanation": "Заранее обдуманный план (билеты куплены) → to be going to (are going to travel).",
+            "options": [
+              "travel",
+              "are going to travel",
+              "travelled"
+            ],
+            "correct_idx": 1,
+            "answer": "are going to travel"
+          },
+          {
+            "id": "verb_tenses_test_5",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You explain why you missed the doorbell — at that exact moment you were in the shower.\n«I didn't hear the bell because I ___ a shower.»",
+            "explanation": "Длительное действие в конкретный момент прошлого → Past Continuous (was having).",
+            "options": [
+              "had",
+              "have",
+              "was having"
+            ],
+            "correct_idx": 2,
+            "answer": "was having"
+          },
+          {
+            "id": "verb_tenses_test_6",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your eyes are red and a friend asks why you look so tired. You spent the whole night on your books.\n«I'm exhausted — I ___ all night.»",
+            "explanation": "Длительный процесс до настоящего + видимый результат → Present Perfect Continuous (have been studying).",
+            "options": [
+              "study",
+              "studied",
+              "have been studying"
+            ],
+            "correct_idx": 2,
+            "answer": "have been studying"
+          },
+          {
+            "id": "verb_tenses_test_7",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "By the time you reached the platform, the train was no longer there.\n«When I got to the station, the train ___.»",
+            "explanation": "Действие, завершившееся раньше другого прошлого → Past Perfect (had already left).",
+            "options": [
+              "had already left",
+              "has already left",
+              "leaves"
+            ],
+            "correct_idx": 0,
+            "answer": "had already left"
+          },
+          {
+            "id": "verb_tenses_test_8",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A new friend asks about your daily routine. Every morning, without fail, you do the same sport — running.\n«I ___ jogging every morning.»",
+            "explanation": "every morning — регулярная привычка → Present Simple (go).",
+            "options": [
+              "am going",
+              "went",
+              "go"
+            ],
+            "correct_idx": 2,
+            "answer": "go"
+          },
+          {
+            "id": "verb_tenses_test_9",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your friend is nervous before an exam. You're confident about their success and want to reassure them.\n«Don't worry, I'm sure you ___ well.»",
+            "explanation": "I'm sure + предсказание о будущем → Future Simple (will do).",
+            "options": [
+              "do",
+              "did",
+              "will do"
+            ],
+            "correct_idx": 2,
+            "answer": "will do"
+          },
+          {
+            "id": "verb_tenses_test_10",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A friend invites you out tonight, but your evening is already booked — you and your cousin arranged to see each other at seven.\n«Sorry, tonight I ___ my cousin at seven.»",
+            "explanation": "Назначенная договорённость на будущее → Present Continuous (am meeting).",
+            "options": [
+              "am meeting",
+              "meet",
+              "met"
+            ],
+            "correct_idx": 0,
+            "answer": "am meeting"
+          },
+          {
+            "id": "verb_tenses_test_11",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You're chatting about travel and want to ask your friend about their life experience of visiting Japan.\n«___ you ever ___ to Japan?»",
+            "explanation": "ever (опыт без даты) → Present Perfect (Have you ever been).",
+            "options": [
+              "Did / go",
+              "Have / been",
+              "Do / go"
+            ],
+            "correct_idx": 1,
+            "answer": "Have / been"
+          },
+          {
+            "id": "verb_tenses_test_12",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You tell a friend the exact age of your phone — you got it three months ago.\n«I ___ this phone three months ago.»",
+            "explanation": "ago — точное прошлое → Past Simple (bought).",
+            "options": [
+              "buy",
+              "have bought",
+              "bought"
+            ],
+            "correct_idx": 2,
+            "answer": "bought"
+          },
+          {
+            "id": "verb_tenses_test_13",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You look up at the dark, heavy sky and warn your friend about the coming weather.\n«Look at the sky! It ___ rain.»",
+            "explanation": "Прогноз по видимым признакам (тёмное небо) → to be going to (is going to).",
+            "options": [
+              "is going to",
+              "rains",
+              "will be"
+            ],
+            "correct_idx": 0,
+            "answer": "is going to"
+          },
+          {
+            "id": "verb_tenses_test_14",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A friend offers you lunch, but you finished your own meal only a minute ago.\n«No, thanks, I ___ eaten.»",
+            "explanation": "just + только что завершённое действие → Present Perfect (have just eaten).",
+            "options": [
+              "just",
+              "did just",
+              "have just"
+            ],
+            "correct_idx": 2,
+            "answer": "have just"
+          },
+          {
+            "id": "verb_tenses_test_15",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You describe an old photo. In it, you are in the middle of a dance, and your brother has a guitar in his hands.\n«In this photo I ___ while my brother played the guitar.»",
+            "explanation": "Длительное фоновое действие в прошлом → Past Continuous (was dancing).",
+            "options": [
+              "danced",
+              "was dancing",
+              "dance"
+            ],
+            "correct_idx": 1,
+            "answer": "was dancing"
+          },
+          {
+            "id": "verb_tenses_test_16",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your friend's shirt is covered in paint and there are brushes everywhere. You guess what caused it.\n«Your shirt is a mess! ___ you ___ the walls?»",
+            "explanation": "Недавний длительный процесс с видимым результатом → Present Perfect Continuous (Have you been painting).",
+            "options": [
+              "Have / been painting",
+              "Did / paint",
+              "Do / paint"
+            ],
+            "correct_idx": 0,
+            "answer": "Have / been painting"
+          },
+          {
+            "id": "verb_tenses_test_17",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You explain why you were stuck outside the house — the keys were still on the kitchen table.\n«I couldn't get in because I ___ my keys.»",
+            "explanation": "Причина, предшествующая другому прошлому (couldn't get in) → Past Perfect (had forgotten).",
+            "options": [
+              "forgot",
+              "have forgotten",
+              "had forgotten"
+            ],
+            "correct_idx": 2,
+            "answer": "had forgotten"
+          },
+          {
+            "id": "verb_tenses_test_18",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your little sister is scared of the dark and doesn't want to be alone. You promise not to leave her side.\n«Don't be afraid, I ___ here with you.»",
+            "explanation": "Обещание в момент речи → Future Simple (will stay).",
+            "options": [
+              "stay",
+              "will stay",
+              "stayed"
+            ],
+            "correct_idx": 1,
+            "answer": "will stay"
+          },
+          {
+            "id": "verb_tenses_test_19",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A tourist asks when the shop starts working. You know its doors are unlocked at nine sharp every day.\n«The shop ___ at nine o'clock.»",
+            "explanation": "Регулярное расписание/факт → Present Simple (opens).",
+            "options": [
+              "is opening",
+              "opens",
+              "opened"
+            ],
+            "correct_idx": 1,
+            "answer": "opens"
+          },
+          {
+            "id": "verb_tenses_test_20",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A colleague asks about your morning. The working day isn't over yet, and you've already phoned ten clients.\n«I ___ ten calls so far today.»",
+            "explanation": "so far + незавершённый период (today) → Present Perfect (have made).",
+            "options": [
+              "have made",
+              "made",
+              "make"
+            ],
+            "correct_idx": 0,
+            "answer": "have made"
+          },
+          {
+            "id": "verb_tenses_test_21",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A friend asks about your hobby. You started the guitar last year and still practise it.\n«I ___ the guitar since last year.»",
+            "explanation": "since last year + действие длится до сих пор → Present Perfect Continuous (have been learning).",
+            "options": [
+              "have been learning",
+              "learn",
+              "learned"
+            ],
+            "correct_idx": 0,
+            "answer": "have been learning"
+          },
+          {
+            "id": "verb_tenses_test_22",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A child asks you a simple science question about space.\n«The Moon ___ around the Earth.»",
+            "explanation": "Общеизвестный факт → Present Simple (goes).",
+            "options": [
+              "goes",
+              "is going",
+              "went"
+            ],
+            "correct_idx": 0,
+            "answer": "goes"
+          },
+          {
+            "id": "verb_tenses_test_23",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You're telling a story about a childhood holiday by the sea.\n«When I was seven, we ___ a whole month at the seaside.»",
+            "explanation": "Завершённое действие в прошлом (When I was seven) → Past Simple (spent).",
+            "options": [
+              "have spent",
+              "spent",
+              "spend"
+            ],
+            "correct_idx": 1,
+            "answer": "spent"
+          },
+          {
+            "id": "verb_tenses_test_24",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Your phone buzzes during a chat; you let your friend know the photos are already on their way.\n«I ___ you the photos — check your phone.»",
+            "explanation": "just + действие только что завершено, результат сейчас → Present Perfect (have just sent).",
+            "options": [
+              "sent",
+              "send",
+              "have just sent"
+            ],
+            "correct_idx": 2,
+            "answer": "have just sent"
+          },
+          {
+            "id": "verb_tenses_test_25",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "Someone knocks while you're in the shower with shampoo in your hair; you shout an explanation.\n«Wait a second — I ___ my hair!»",
+            "explanation": "Действие в момент речи → Present Continuous (am washing).",
+            "options": [
+              "am washing",
+              "wash",
+              "washed"
+            ],
+            "correct_idx": 0,
+            "answer": "am washing"
+          },
+          {
+            "id": "verb_tenses_test_26",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You borrow a book from a friend who's worried about getting it back. You reassure them.\n«I ___ it back to you on Monday, I promise.»",
+            "explanation": "Обещание → Future Simple ('ll bring).",
+            "options": [
+              "bring",
+              "'ll bring",
+              "brought"
+            ],
+            "correct_idx": 1,
+            "answer": "'ll bring"
+          },
+          {
+            "id": "verb_tenses_test_27",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You explain why you missed an important phone call — at that moment you were behind the wheel on the motorway.\n«I couldn't pick up — I ___ at the time.»",
+            "explanation": "Длительное действие в конкретный момент прошлого → Past Continuous (was driving).",
+            "options": [
+              "drove",
+              "have driven",
+              "was driving"
+            ],
+            "correct_idx": 2,
+            "answer": "was driving"
+          },
+          {
+            "id": "verb_tenses_test_28",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "You explain why a film made no sense to you: you came in late and missed the opening scenes.\n«I was confused because the film ___ before I arrived.»",
+            "explanation": "Действие, завершившееся раньше другого прошлого (arrived) → Past Perfect (had already started).",
+            "options": [
+              "had already started",
+              "has already started",
+              "starts"
+            ],
+            "correct_idx": 0,
+            "answer": "had already started"
+          },
+          {
+            "id": "verb_tenses_test_29",
+            "type": "choice",
+            "code": "2.4.30",
+            "task_type": "Present Simple",
+            "context": "A friend asks about your evening. You and your classmates have already agreed to prepare for tomorrow's test together.\n«Tonight we ___ for the test together.»",
+            "explanation": "Заранее обдуманный план → to be going to (are going to study).",
+            "options": [
+              "study",
+              "are going to study",
+              "studied"
+            ],
+            "correct_idx": 1,
+            "answer": "are going to study"
+          }
+        ]
+      }
+    }
+  ]
+}

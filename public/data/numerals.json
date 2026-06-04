@@ -1,0 +1,36 @@
+{
+  "id": "numerals",
+  "name": "Числительные",
+  "icon": "🎯",
+  "subtopics": [
+    {
+      "id": "numerals_main",
+      "name": "Числительные",
+      "description_items": [
+        ["2.4.50", "Порядковые числительные"],
+        ["2.4.50", "Количественные числительные"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "numerals_razberis_0",
+            "type": "choice",
+            "code": "2.4.38",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

@@ -1,0 +1,38 @@
+{
+  "id": "conditionals",
+  "name": "Условные предложения и выражения нереальности",
+  "icon": "🔀",
+  "subtopics": [
+    {
+      "id": "conditionals_main",
+      "name": "Условные предложения и выражения нереальности",
+      "description_items": [
+        ["2.4.10", "Conditionals 0"],
+        ["2.4.10", "Conditionals I"],
+        ["2.4.11", "Conditionals II"],
+        ["2.4.27", "I wish"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "conditionals_razberis_0",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

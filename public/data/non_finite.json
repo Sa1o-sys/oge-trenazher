@@ -1,0 +1,39 @@
+{
+  "id": "non_finite",
+  "name": "Неличные формы глагола",
+  "icon": "📐",
+  "subtopics": [
+    {
+      "id": "non_finite_main",
+      "name": "Неличные формы глагола",
+      "description_items": [
+        ["2.4.33", "Инфинитив"],
+        ["2.4.33", "Герундий"],
+        ["2.4.33", "Participle I"],
+        ["2.4.33", "Participle II"],
+        ["2.4.15", "love / like / hate doing something"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "non_finite_razberis_0",
+            "type": "choice",
+            "code": "2.4.33",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

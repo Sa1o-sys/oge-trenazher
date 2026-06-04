@@ -1,0 +1,31 @@
+kind = "web"
+previewPath = "/"
+title = "Тренажёр ОГЭ"
+version = "1.0.0"
+id = "artifacts/oge-trainer"
+router = "path"
+
+[[integratedSkills]]
+name = "react-vite"
+version = "1.0.0"
+
+[[services]]
+name = "web"
+paths = [ "/" ]
+localPort = 22995
+
+[services.development]
+run = "pnpm --filter @workspace/oge-trainer run dev"
+
+[services.production]
+build = [ "pnpm", "--filter", "@workspace/oge-trainer", "run", "build" ]
+publicDir = "artifacts/oge-trainer/dist/public"
+serve = "static"
+
+[[services.production.rewrites]]
+from = "/*"
+to = "/index.html"
+
+[services.env]
+PORT = "22995"
+BASE_PATH = "/"

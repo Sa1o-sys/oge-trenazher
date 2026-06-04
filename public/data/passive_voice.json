@@ -1,0 +1,37 @@
+{
+  "id": "passive_voice",
+  "name": "Пассивный залог",
+  "icon": "🔄",
+  "subtopics": [
+    {
+      "id": "passive_voice_main",
+      "name": "Пассивный залог",
+      "description_items": [
+        ["2.4.31", "Present Simple Passive"],
+        ["2.4.31", "Past Simple Passive"],
+        ["2.4.31", "Past Perfect Passive"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "passive_voice_razberis_0",
+            "type": "choice",
+            "code": "2.4.31",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

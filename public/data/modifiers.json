@@ -1,0 +1,36 @@
+{
+  "id": "modifiers",
+  "name": "Прилагательные и наречия",
+  "icon": "📊",
+  "subtopics": [
+    {
+      "id": "modifiers_main",
+      "name": "Прилагательные и наречия",
+      "description_items": [
+        ["2.4.39", "Степени сравнения прилагательных"],
+        ["2.4.40", "Степени сравнения наречий"]
+      ],      "is_trap_section": false,
+      "stages": {
+        "razberis": [
+          {
+            "id": "modifiers_razberis_0",
+            "type": "choice",
+            "code": "2.4.39",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

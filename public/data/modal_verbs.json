@@ -1,0 +1,40 @@
+{
+  "id": "modal_verbs",
+  "name": "Модальные глаголы",
+  "icon": "🔧",
+  "subtopics": [
+    {
+      "id": "modal_verbs_main",
+      "name": "Модальные глаголы",
+      "description_items": [
+        ["2.4.34", "can / be able to"],
+        ["2.4.34", "must / have to"],
+        ["2.4.34", "may"],
+        ["2.4.34", "might"],
+        ["2.4.34", "should"],
+        ["2.4.34", "need"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "modal_verbs_razberis_0",
+            "type": "choice",
+            "code": "2.4.34",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

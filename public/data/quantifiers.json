@@ -1,0 +1,37 @@
+{
+  "id": "quantifiers",
+  "name": "Количественные слова",
+  "icon": "🔢",
+  "subtopics": [
+    {
+      "id": "quantifiers_main",
+      "name": "Количественные слова",
+      "description_items": [
+        ["2.4.42", "much / many / a lot of"],
+        ["2.4.42", "little / a little"],
+        ["2.4.43", "few / a few"]
+      ],
+      "stages": {
+        "razberis": [
+          {
+            "id": "quantifiers_razberis_0",
+            "type": "choice",
+            "code": "2.4.42",
+            "task_type": "Анализ примеров",
+            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "options": [
+              "Вариант 1",
+              "Вариант 2"
+            ],
+            "answer": "Вариант 1",
+            "correct_idx": 0,
+            "explanation": "Объяснение правила."
+          }
+        ],
+        "rule": [],
+        "practice": [],
+        "test": []
+      }
+    }
+  ]
+}

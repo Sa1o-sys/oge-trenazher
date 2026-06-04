@@ -1,0 +1,280 @@
+{
+  "categories": [
+    {
+      "id": "there_to_be",
+      "name": "Базовая конструкция There + to be",
+      "icon": "📌",
+      "subtopics": [
+        {
+          "id": "there_to_be_main",
+          "name": "Базовая конструкция There + to be",
+          "description_items": [
+            ["2.4.5", "There + to be"]
+          ],
+          "stageCounts": {
+            "razberis": 12,
+            "rule": 14,
+            "practice": 15,
+            "test": 15
+          }
+        }
+      ]
+    },
+    {
+      "id": "verb_tenses",
+      "name": "Видовременные формы глагола",
+      "icon": "⏳",
+      "subtopics": [
+        {
+          "id": "verb_tenses_main",
+          "name": "Видовременные формы глагола",
+          "description_items": [
+            ["2.4.30", "Present Simple"],
+            ["2.4.30", "Past Simple"],
+            ["2.4.30", "Future Simple"],
+            ["2.4.30", "Present Continuous"],
+            ["2.4.30", "Past Continuous"],
+            ["2.4.30", "Present Perfect"],
+            ["2.4.30", "Past Perfect"],
+            ["2.4.30", "Present Perfect Continuous"],
+            ["2.4.32", "Past Perfect Continuous"],
+            ["2.4.19", "To be going to"]
+          ],
+          "stageCounts": {
+            "razberis": 24,
+            "rule": 30,
+            "practice": 36,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "passive_voice",
+      "name": "Пассивный залог",
+      "icon": "🔄",
+      "subtopics": [
+        {
+          "id": "passive_voice_main",
+          "name": "Пассивный залог",
+          "description_items": [
+            ["2.4.31", "Present Simple Passive"],
+            ["2.4.31", "Past Simple Passive"],
+            ["2.4.31", "Past Perfect Passive"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "conditionals",
+      "name": "Условные предложения и выражения нереальности",
+      "icon": "🔀",
+      "subtopics": [
+        {
+          "id": "conditionals_main",
+          "name": "Условные предложения и выражения нереальности",
+          "description_items": [
+            ["2.4.10", "Conditionals 0"],
+            ["2.4.10", "Conditionals I"],
+            ["2.4.11", "Conditionals II"],
+            ["2.4.27", "I wish"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "reported_speech",
+      "name": "Косвенная речь и согласование времени",
+      "icon": "💬",
+      "subtopics": [
+        {
+          "id": "reported_speech_main",
+          "name": "Косвенная речь и согласование времени",
+          "description_items": [
+            ["2.4.13", "Утверждения и отрицания в косвенной речи"],
+            ["2.4.13", "Вопросы в косвенной речи"],
+            ["2.4.13", "Побудительные предложения в косвенной речи"],
+            ["2.4.12", "Согласование времен"],
+            ["2.4.35", "Модальные глаголы в косвенной речи"],
+            ["2.4.32", "Future-in-the-past"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30  
+          }
+        }
+      ]
+    },
+    {
+      "id": "modal_verbs",
+      "name": "Модальные глаголы",
+      "icon": "🔧",
+      "subtopics": [
+        {
+          "id": "modal_verbs_main",
+          "name": "Модальные глаголы",
+          "description_items": [
+            ["2.4.34", "can / be able to"],
+            ["2.4.34", "must / have to"],
+            ["2.4.34", "may"],
+            ["2.4.34", "might"],
+            ["2.4.34", "should"],
+            ["2.4.34", "need"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "non_finite",
+      "name": "Неличные формы глагола",
+      "icon": "📐",
+      "subtopics": [
+        {
+          "id": "non_finite_main",
+          "name": "Неличные формы глагола",
+          "description_items": [
+            ["2.4.33", "Инфинитив"],
+            ["2.4.33", "Герундий"],
+            ["2.4.33", "Participle I"],
+            ["2.4.33", "Participle II"],
+            ["2.4.15", "love / like / hate doing something"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "nouns",
+      "name": "Существительные",
+      "icon": "🎒",
+      "subtopics": [
+        {
+          "id": "nouns_main",
+          "name": "Существительные",
+          "description_items": [
+            ["2.4.37", "Множественное число существительных"],
+            ["2.4.37", "Существительные только во множественном числе"],
+            ["2.4.38", "Существительные с причастиями настоящего и прощедшего времени"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "modifiers",
+      "name": "Прилагательные и наречия",
+      "icon": "📊",
+      "subtopics": [
+        {
+          "id": "modifiers_main",
+          "name": "Прилагательные и наречия",
+          "description_items": [
+            ["2.4.39", "Степени сравнения прилагательных"],
+            ["2.4.40", "Степени сравнения наречий"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "pronouns",
+      "name": "Местоимения",
+      "icon": "👥",
+      "subtopics": [
+        {
+          "id": "pronouns_main",
+          "name": "Местоимения",
+          "description_items": [
+            ["2.4.44", "Личные местоимения"],
+            ["2.4.45", "Притяжательные местоимения"],
+            ["2.4.46", "Указательные местоимения"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "quantifiers",
+      "name": "Количественные слова",
+      "icon": "🔢",
+      "subtopics": [
+        {
+          "id": "quantifiers_main",
+          "name": "Количественные слова",
+          "description_items": [
+            ["2.4.42", "much / many / a lot of"],
+            ["2.4.42", "little / a little"],
+            ["2.4.43", "few / a few"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    },
+    {
+      "id": "numerals",
+      "name": "Числительные",
+      "icon": "🎯",
+      "subtopics": [
+        {
+          "id": "numerals_main",
+          "name": "Числительные",
+          "description_items": [
+            ["2.4.50", "Порядковые числительные"],
+            ["2.4.50", "Количественные числительные"]
+          ],
+          "stageCounts": {
+            "razberis": 30,
+            "rule": 30,
+            "practice": 30,
+            "test": 30
+          }
+        }
+      ]
+    }
+  ]
+}
