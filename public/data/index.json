@@ -36,8 +36,7 @@
             ["2.4.30", "Past Continuous"],
             ["2.4.30", "Present Perfect"],
             ["2.4.30", "Past Perfect"],
-            ["2.4.30", "Present Perfect Continuous"],
-            ["2.4.32", "Past Perfect Continuous"],
+            ["2.4.32", "Present Perfect Continuous"],
             ["2.4.19", "To be going to"]
           ],
           "stageCounts": {
@@ -86,9 +85,9 @@
             ["2.4.27", "I wish"]
           ],
           "stageCounts": {
-            "razberis": 30,
+            "razberis": 24,
             "rule": 30,
-            "practice": 30,
+            "practice": 36,
             "test": 30
           }
         }

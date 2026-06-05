@@ -7,10 +7,22 @@
       "id": "conditionals_main",
       "name": "Условные предложения и выражения нереальности",
       "description_items": [
-        ["2.4.10", "Conditionals 0"],
-        ["2.4.10", "Conditionals I"],
-        ["2.4.11", "Conditionals II"],
-        ["2.4.27", "I wish"]
+        [
+          "2.4.10",
+          "Conditionals 0"
+        ],
+        [
+          "2.4.10",
+          "Conditionals I"
+        ],
+        [
+          "2.4.11",
+          "Conditionals II"
+        ],
+        [
+          "2.4.27",
+          "I wish"
+        ]
       ],
       "stages": {
         "razberis": [
@@ -18,20 +30,1593 @@
             "id": "conditionals_razberis_0",
             "type": "choice",
             "code": "2.4.10",
-            "task_type": "Анализ примеров",
-            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If you heat ice, it melts.»\n\nЧто выражает это предложение?",
+            "explanation": "Conditional 0 (If + Present Simple, … Present Simple) описывает общие истины и законы природы: при таком условии результат наступает всегда.",
             "options": [
-              "Вариант 1",
-              "Вариант 2"
+              "Общую истину / закономерность, которая верна всегда",
+              "Конкретное событие в будущем",
+              "Мечту о невозможном"
             ],
-            "answer": "Вариант 1",
             "correct_idx": 0,
-            "explanation": "Объяснение правила."
+            "answer": "Общую истину / закономерность, которая верна всегда"
+          },
+          {
+            "id": "conditionals_razberis_1",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If I had a lot of money, I would travel the world.»\n\nЧто показывают had + would?",
+            "explanation": "Conditional 2 (If + Past Simple, … would + V) описывает воображаемую, маловероятную или нереальную на данный момент ситуацию. На самом деле денег нет.",
+            "options": [
+              "Что у говорящего много денег",
+              "Реальный план на будущее",
+              "Воображаемую, нереальную ситуацию в настоящем"
+            ],
+            "correct_idx": 2,
+            "answer": "Воображаемую, нереальную ситуацию в настоящем"
+          },
+          {
+            "id": "conditionals_razberis_2",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If it rains tomorrow, we will stay at home.»\n\nНасколько реальна эта ситуация?",
+            "explanation": "Conditional 1 (If + Present Simple, … will + V1) описывает реальное, вероятное условие и его результат в будущем.",
+            "options": [
+              "Это невозможно",
+              "Это реальная, вполне возможная ситуация в будущем",
+              "Это всегда так"
+            ],
+            "correct_idx": 1,
+            "answer": "Это реальная, вполне возможная ситуация в будущем"
+          },
+          {
+            "id": "conditionals_razberis_3",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish I knew the answer.»\n\nЧто выражает I wish I knew?",
+            "explanation": "I wish + Past Simple выражает сожаление о НАСТОЯЩЕМ: реальность противоположна желанию (он не знает ответа). Хотел бы я знать ответ…",
+            "options": [
+              "Сожаление: говорящий НЕ знает ответа сейчас, но хотел бы знать",
+              "Что он знает ответ",
+              "Будущее действие"
+            ],
+            "correct_idx": 0,
+            "answer": "Сожаление: говорящий НЕ знает ответа сейчас, но хотел бы знать"
+          },
+          {
+            "id": "conditionals_razberis_4",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If I were you, I would apologize.»\n\nЧто означает If I were you?",
+            "explanation": "If I were you — устойчивая фраза для совета. Это Conditional 2: ситуация воображаемая, поэтому используется were для всех лиц.",
+            "options": [
+              "Совет: «на твоём месте я бы…» (воображаемая ситуация)",
+              "Что говорящий действительно стал собеседником",
+              "Реальное событие"
+            ],
+            "correct_idx": 0,
+            "answer": "Совет: «на твоём месте я бы…» (воображаемая ситуация)"
+          },
+          {
+            "id": "conditionals_razberis_5",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«When you mix blue and yellow, you get green.»\n\nПочему можно использовать when вместо if?",
+            "explanation": "В Conditional 0 if и when имеют одинаковый смысл («всякий раз, когда»), потому что речь идёт о неизменной закономерности.",
+            "options": [
+              "Это ошибка",
+              "В нулевом условном if и when взаимозаменяемы — результат наступает всегда",
+              "when здесь подразумевает прошлое"
+            ],
+            "correct_idx": 1,
+            "answer": "В нулевом условном if и when взаимозаменяемы — результат наступает всегда"
+          },
+          {
+            "id": "conditionals_razberis_6",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If you study hard, you will pass the exam.»\n\nПочему в части с if нет will?",
+            "explanation": "Правило Conditional 1: после if будущее НЕ выражается через will. Условие ставится в Present Simple, will идёт только в главной части. Формула: If + Present Simple, will.",
+            "options": [
+              "Это опечатка",
+              "will пропущен случайно",
+              "В придаточном с if (1-й тип) будущее не выражается через will — там стоит Present Simple"
+            ],
+            "correct_idx": 2,
+            "answer": "В придаточном с if (1-й тип) будущее не выражается через will — там стоит Present Simple"
+          },
+          {
+            "id": "conditionals_razberis_7",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish I had studied harder for the test.»\n\nЧто выражает I wish I had studied?",
+            "explanation": "I wish + Past Perfect выражает сожаление о ПРОШЛОМ. Реальность обратная: он не занимался усердно (и теперь жалеет).",
+            "options": [
+              "Что он хорошо подготовился",
+              "Сожаление о прошлом: на самом деле он НЕ занимался усердно",
+              "План на будущее"
+            ],
+            "correct_idx": 1,
+            "answer": "Сожаление о прошлом: на самом деле он НЕ занимался усердно"
+          },
+          {
+            "id": "conditionals_razberis_8",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай:\n• If you press this button, the machine starts.\n• If you press this button, the machine will start.\n\nВ чём разница?",
+            "explanation": "Conditional 0 (starts) — неизменная закономерность работы устройства. Conditional 1 (will start) — конкретный возможный результат в будущем.",
+            "options": [
+              "Нет разницы",
+              "Первое про будущее, второе про прошлое",
+              "Первое (0-й тип) — общее правило, всегда так; второе (1-й тип) — конкретный возможный случай"
+            ],
+            "correct_idx": 2,
+            "answer": "Первое (0-й тип) — общее правило, всегда так; второе (1-й тип) — конкретный возможный случай"
+          },
+          {
+            "id": "conditionals_razberis_9",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If she lived closer, she would visit us more often.»\n\nЧто показывает would visit?",
+            "explanation": "Conditional 2: would + V в главной части показывает воображаемый результат нереального на данный момент условия. На самом деле она живёт далеко.",
+            "options": [
+              "Воображаемый результат нереальной ситуации (на самом деле она живёт далеко)",
+              "Регулярную привычку",
+              "Завершённое прошлое"
+            ],
+            "correct_idx": 0,
+            "answer": "Воображаемый результат нереальной ситуации (на самом деле она живёт далеко)"
+          },
+          {
+            "id": "conditionals_razberis_10",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If you don't hurry, you will miss the bus.»\n\nЧто выражает конструкция?",
+            "explanation": "Conditional 1 здесь — реальное предупреждение: если условие выполнится, наступит вероятное последствие в будущем (will miss). Если ты не поторопишься, мы пропустим автобус.",
+            "options": [
+              "Всегда происходящее действие",
+              "Воображаемое",
+              "Реальное предупреждение о вероятном последствии в будущем"
+            ],
+            "correct_idx": 0,
+            "answer": "Всегда происходящее действие"
+          },
+          {
+            "id": "conditionals_razberis_11",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If I am tired, I go to bed early.»\n\nЧто описывает это предложение?",
+            "explanation": "Conditional 0 описывает привычную закономерность: всякий раз при данном условии человек поступает одинаково.",
+            "options": [
+              "Однократное будущее событие",
+              "Невозможную ситуацию",
+              "То, что человек делает обычно в таких условиях (закономерность)"
+            ],
+            "correct_idx": 2,
+            "answer": "То, что человек делает обычно в таких условиях (закономерность)"
+          },
+          {
+            "id": "conditionals_razberis_12",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If I were a bird, I would fly.»\n\nПочему с местоимением I используется were, а не was?",
+            "explanation": "В Conditional 2 и после I wish с глаголом to be для всех лиц употребляется were (I were, he were) — это норма для нереальных ситуаций и такого типа условных предложений.",
+            "options": [
+              "В нереальных условиях (2-й тип) для всех лиц используется were",
+              "Это ошибка",
+              "was нельзя писать никогда в условной части предложения"
+            ],
+            "correct_idx": 0,
+            "answer": "В нереальных условиях (2-й тип) для всех лиц используется were"
+          },
+          {
+            "id": "conditionals_razberis_13",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish you would stop interrupting me.»\n\nЧто выражает эта фраза?",
+            "explanation": "I wish + would выражает недовольство чужим поведением и желание, чтобы оно изменилось. Я бы хотел, чтобы ты меня не перебивал больше.",
+            "options": [
+              "Похвалу",
+              "Раздражение и желание, чтобы собеседник изменил поведение",
+              "Сожаление о прошлом"
+            ],
+            "correct_idx": 1,
+            "answer": "Раздражение и желание, чтобы собеседник изменил поведение"
+          },
+          {
+            "id": "conditionals_razberis_14",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish I were taller.»\n\nЧто выражает?",
+            "explanation": "I wish + were — сожаление о настоящем положении дел: говорящий невысок и хотел бы это изменить.",
+            "options": [
+              "Что он высокий",
+              "Сожаление о настоящем: он хотел бы быть выше, но это не так",
+              "Будущее"
+            ],
+            "correct_idx": 1,
+            "answer": "Сожаление о настоящем: он хотел бы быть выше, но это не так"
+          },
+          {
+            "id": "conditionals_razberis_15",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If you see Tom, tell him to call me.»\n\nЧто стоит в главной части?",
+            "explanation": "В Conditional 1 главная часть может быть не только с will, но и с повелительным наклонением (просьба, приказ): tell him…",
+            "options": [
+              "Повеление (Imperative) — в 1-м типе возможен не только will, но и повелительное наклонение",
+              "Past Simple",
+              "Present Simple"
+            ],
+            "correct_idx": 0,
+            "answer": "Повеление (Imperative) — в 1-м типе возможен не только will, но и повелительное наклонение"
+          },
+          {
+            "id": "conditionals_razberis_16",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If I were in your situation, I would tell the truth.»\n\nРеальна ли ситуация?",
+            "explanation": "Conditional 2: воображаемая ситуация (were), результат с would. Говорящий лишь представляет себя на месте другого.",
+            "options": [
+              "Нет, говорящий лишь воображает себя на месте собеседника",
+              "Да, это произошло",
+              "Это общее правило"
+            ],
+            "correct_idx": 0,
+            "answer": "Нет, говорящий лишь воображает себя на месте собеседника"
+          },
+          {
+            "id": "conditionals_razberis_17",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай:\n• If I have time, I will help you.\n• If I had time, I would help you.\n\nЧем различаются?",
+            "explanation": "Первое — Conditional 1 (реальное условие, will). Если у меня будет время, я тебе помогу. Второе — Conditional 2 (воображаемое условие, had + would). Если бы у меня было время, я бы тебе помог.",
+            "options": [
+              "Ничем",
+              "Первое — реальная возможность; второе — нереальная / маловероятная ситуация",
+              "Оба предложения про прошлое"
+            ],
+            "correct_idx": 1,
+            "answer": "Первое — реальная возможность; второе — нереальная / маловероятная ситуация"
+          },
+          {
+            "id": "conditionals_razberis_18",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish I hadn't eaten so much.»\n\nЧто это значит?",
+            "explanation": "I wish + Past Perfect (отрицание) — сожаление о совершённом действии в прошлом: реальность обратная — он съел слишком много.",
+            "options": [
+              "Он сожалеет, что он мало съел",
+              "Это значит, что он рад",
+              "Он съел слишком много и теперь жалеет"
+            ],
+            "correct_idx": 0,
+            "answer": "Он сожалеет, что он мало съел"
+          },
+          {
+            "id": "conditionals_razberis_19",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If the weather is good, we may go hiking.»\n\nЧто показывает may go?",
+            "explanation": "В Conditional 1 в главной части кроме will могут стоять may/can/might — они показывают возможный, но не гарантированный результат.",
+            "options": [
+              "Невозможность",
+              "Прошлое",
+              "Возможный, но не стопроцентный результат в будущем"
+            ],
+            "correct_idx": 2,
+            "answer": "Возможный, но не стопроцентный результат в будущем"
+          },
+          {
+            "id": "conditionals_razberis_20",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«Ice melts if the temperature rises.»\n\nМожно ли поменять части местами?",
+            "explanation": "В условных предложениях части можно менять местами. Если придаточное с if стоит первым, после него ставится запятая; если вторым — запятая не нужна.",
+            "options": [
+              "Нет, порядок строгий",
+              "Да, части можно поменять местами, смысл не меняется (запятая нужна, только если if-часть стоит первой)",
+              "Порядок меняет время"
+            ],
+            "correct_idx": 1,
+            "answer": "Да, части можно поменять местами, смысл не меняется (запятая нужна, только если if-часть стоит первой)"
+          },
+          {
+            "id": "conditionals_razberis_21",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«If he knew the truth, he would be angry.»\n\nЗнает ли он правду сейчас?",
+            "explanation": "Conditional 2 описывает нереальное настоящее: had/knew + would. На самом деле он правды не знает.",
+            "options": [
+              "Нет — это воображаемая ситуация, на самом деле он не знает",
+              "Да, знает",
+              "Узнает завтра"
+            ],
+            "correct_idx": 0,
+            "answer": "Нет — это воображаемая ситуация, на самом деле он не знает"
+          },
+          {
+            "id": "conditionals_razberis_22",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай: \n«I wish it weren't so cold today.»\n\nКакая погода на самом деле?",
+            "explanation": "I wish + weren't — сожаление о настоящем: реальность противоположна желанию, значит, на самом деле холодно.",
+            "options": [
+              "Тепло",
+              "Холодно — говорящий сожалеет о реальном положении дел",
+              "Про погоду ничего не сказано"
+            ],
+            "correct_idx": 1,
+            "answer": "Холодно — говорящий сожалеет о реальном положении дел"
+          },
+          {
+            "id": "conditionals_razberis_23",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Прочитай:\n\n• I wish I had a car.\n• I wish I had had a car back then.\n\nЧем различаются?",
+            "explanation": "I wish + Past Simple (had) — сожаление о настоящем. I wish + Past Perfect (had had) — сожаление о прошлом (тогда не было машины).",
+            "options": [
+              "Нет разницы",
+              "Оба про прошлое",
+              "Первое — сожаление о настоящем (нет машины сейчас); второе — сожаление о прошлом"
+            ],
+            "correct_idx": 2,
+            "answer": "Первое — сожаление о настоящем (нет машины сейчас); второе — сожаление о прошлом"
           }
         ],
-        "rule": [],
-        "practice": [],
-        "test": []
+        "rule": [
+          {
+            "id": "conditionals_rule_0",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (Conditional 0):\n\n«If you ___ water to 100°C, it boils.»",
+            "explanation": "Conditional 0: общая истина → в обеих частях Present Simple. After if → heat.",
+            "options": [
+              "heat",
+              "will heat",
+              "heated"
+            ],
+            "correct_idx": 0,
+            "answer": "heat"
+          },
+          {
+            "id": "conditionals_rule_1",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (I wish):\n\n«I wish I ___ how to swim.»",
+            "explanation": "I wish + Past Simple = сожаление о НАСТОЯЩЕМ → knew (на самом деле не умеет плавать).",
+            "options": [
+              "knew",
+              "know",
+              "will know"
+            ],
+            "correct_idx": 0,
+            "answer": "knew"
+          },
+          {
+            "id": "conditionals_rule_2",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (Conditional 2):\n\n«If I ___ rich, I would buy a big house.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple; с to be для всех лиц используется were.",
+            "options": [
+              "am",
+              "will be",
+              "were"
+            ],
+            "correct_idx": 2,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_rule_3",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (Conditional 1):\n\n«If it ___ tomorrow, we'll cancel the picnic.»",
+            "explanation": "Conditional 1: после if будущее выражается Present Simple → rains (will идёт только в главной части).",
+            "options": [
+              "will rain",
+              "rains",
+              "rained"
+            ],
+            "correct_idx": 1,
+            "answer": "rains"
+          },
+          {
+            "id": "conditionals_rule_4",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (главная часть):\n\n«If we leave now, we ___ on time.»",
+            "explanation": "Conditional 1: реальное условие → главная часть с will → will be.",
+            "options": [
+              "are",
+              "will be",
+              "were"
+            ],
+            "correct_idx": 1,
+            "answer": "will be"
+          },
+          {
+            "id": "conditionals_rule_5",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (главная часть):\n\n«If I had wings, I ___ fly.»",
+            "explanation": "Conditional 2: главная часть строится через would + V → would fly.",
+            "options": [
+              "will",
+              "can",
+              "would"
+            ],
+            "correct_idx": 2,
+            "answer": "would"
+          },
+          {
+            "id": "conditionals_rule_6",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (I wish):\n\n«I wish I ___ to the party yesterday (but I didn't go).»",
+            "explanation": "I wish + Past Perfect = сожаление о ПРОШЛОМ → had gone (на самом деле не пошёл).",
+            "options": [
+              "had gone",
+              "went",
+              "go"
+            ],
+            "correct_idx": 0,
+            "answer": "had gone"
+          },
+          {
+            "id": "conditionals_rule_7",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (Conditional 0):\n\n«If you don't water plants, they ___.»",
+            "explanation": "Conditional 0: общая закономерность → результат в Present Simple → die.",
+            "options": [
+              "will die",
+              "die",
+              "died"
+            ],
+            "correct_idx": 1,
+            "answer": "die"
+          },
+          {
+            "id": "conditionals_rule_8",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Найди ошибку (Conditional 1):\n\n«If it will be sunny, we will go to the beach.»",
+            "explanation": "Ошибка в придаточном: после if нельзя ставить will. Правильно: If it is sunny… → will be заменяется на is.",
+            "options": [
+              "will go → go",
+              "sunny → rainy",
+              "will be → is"
+            ],
+            "correct_idx": 2,
+            "answer": "will be → is"
+          },
+          {
+            "id": "conditionals_rule_9",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (I wish):\n\n«I wish you ___ stop making noise.»",
+            "explanation": "I wish + would выражает недовольство чужим поведением и желание его изменить → would stop.",
+            "options": [
+              "will",
+              "would",
+              "are going to"
+            ],
+            "correct_idx": 1,
+            "answer": "would"
+          },
+          {
+            "id": "conditionals_rule_10",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму (Conditional 2):\n\n«If she ___ here, she would help us.»",
+            "explanation": "Conditional 2: нереальное условие → were (для всех лиц с to be) в условной части.",
+            "options": [
+              "were",
+              "is",
+              "will be"
+            ],
+            "correct_idx": 0,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_rule_11",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери слово:\n\n«We'll be late ___ we hurry.»",
+            "explanation": "unless = if … not («если не»). «We'll be late unless we hurry» = «если не поторопимся, опоздаем».",
+            "options": [
+              "if",
+              "when",
+              "unless"
+            ],
+            "correct_idx": 2,
+            "answer": "unless"
+          },
+          {
+            "id": "conditionals_rule_12",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If I ___ you, I'd take the job.»",
+            "explanation": "If I were you — устойчивая фраза совета (Conditional 2), всегда с were в условной части.",
+            "options": [
+              "were",
+              "am",
+              "was going to"
+            ],
+            "correct_idx": 0,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_rule_13",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«Plants ___ if they don't get light.»",
+            "explanation": "Conditional 0: неизменная закономерность → Present Simple → die.",
+            "options": [
+              "died",
+              "die",
+              "will die"
+            ],
+            "correct_idx": 1,
+            "answer": "die"
+          },
+          {
+            "id": "conditionals_rule_14",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If you ___ me, I'll be very happy.»",
+            "explanation": "Conditional 1: после if → Present Simple → help.",
+            "options": [
+              "help",
+              "will help",
+              "helped"
+            ],
+            "correct_idx": 0,
+            "answer": "help"
+          },
+          {
+            "id": "conditionals_rule_15",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I wish the weather ___ better.»",
+            "explanation": "I wish + were = сожаление о настоящем (погода сейчас плохая). На экзамене могут принять оба варианта в этом случае: was / were, но пишем только один из них!",
+            "options": [
+              "is",
+              "will be",
+              "were"
+            ],
+            "correct_idx": 2,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_rule_16",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Найди ошибку:\n\n«If I would have time, I would call you.»",
+            "explanation": "Ошибка в придаточном: после if нельзя ставить would. Правильно: If I had time… → would have заменяется на had.",
+            "options": [
+              "call → phone",
+              "would have → had",
+              "would call → call"
+            ],
+            "correct_idx": 1,
+            "answer": "would have → had"
+          },
+          {
+            "id": "conditionals_rule_17",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I wish I ___ that stupid thing (but I did).»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом → hadn't said (на самом деле сказал).",
+            "options": [
+              "don't say",
+              "didn't say",
+              "hadn't said"
+            ],
+            "correct_idx": 2,
+            "answer": "hadn't said"
+          },
+          {
+            "id": "conditionals_rule_18",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If we had a map, we ___ find the way more easily.»",
+            "explanation": "В главной части Conditional 2 кроме would возможны could/might → could find.",
+            "options": [
+              "could",
+              "can",
+              "will"
+            ],
+            "correct_idx": 0,
+            "answer": "could"
+          },
+          {
+            "id": "conditionals_rule_19",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If you ask politely, she ___ help you.»",
+            "explanation": "В Conditional 1 главная часть может содержать may/can → may help (возможный результат).",
+            "options": [
+              "helped",
+              "may help",
+              "would help"
+            ],
+            "correct_idx": 1,
+            "answer": "may help"
+          },
+          {
+            "id": "conditionals_rule_20",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму :\n\n«If he ___ harder, he would earn more.»",
+            "explanation": "Conditional 2: нереальное/маловероятное условие → Past Simple → worked.",
+            "options": [
+              "worked",
+              "works",
+              "will work"
+            ],
+            "correct_idx": 0,
+            "answer": "worked"
+          },
+          {
+            "id": "conditionals_rule_21",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери слово:\n\n«___ you press this key, the screen lights up.»",
+            "explanation": "В Conditional 0 можно использовать when вместо if — речь о неизменной закономерности.",
+            "options": [
+              "If only",
+              "Unless",
+              "When"
+            ],
+            "correct_idx": 2,
+            "answer": "When"
+          },
+          {
+            "id": "conditionals_rule_22",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I wish I ___ a brother or sister.»",
+            "explanation": "I wish + Past Simple = сожаление о настоящем → had (сейчас нет брата/сестры).",
+            "options": [
+              "have",
+              "had",
+              "will have"
+            ],
+            "correct_idx": 1,
+            "answer": "had"
+          },
+          {
+            "id": "conditionals_rule_23",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I'll lend you the book if you ___ it back.»",
+            "explanation": "Conditional 1: после if → Present Simple → give.",
+            "options": [
+              "will give",
+              "gave",
+              "give"
+            ],
+            "correct_idx": 2,
+            "answer": "give"
+          },
+          {
+            "id": "conditionals_rule_24",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If you mix red and white, you ___ pink.»",
+            "explanation": "Conditional 0: общая истина → результат в Present Simple → get.",
+            "options": [
+              "will get",
+              "got",
+              "get"
+            ],
+            "correct_idx": 2,
+            "answer": "get"
+          },
+          {
+            "id": "conditionals_rule_25",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If I ___ you, I wouldn't worry.»",
+            "explanation": "If I were you — совет в Conditional 2, всегда с were.",
+            "options": [
+              "were",
+              "am",
+              "will be"
+            ],
+            "correct_idx": 0,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_rule_26",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If they ___ the match, they'll celebrate.»",
+            "explanation": "Conditional 1: после if → Present Simple → win.",
+            "options": [
+              "win",
+              "will win",
+              "won"
+            ],
+            "correct_idx": 0,
+            "answer": "win"
+          },
+          {
+            "id": "conditionals_rule_27",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I wish we ___ tickets earlier (now they're sold out).»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом → had bought (билеты не купили вовремя).",
+            "options": [
+              "buy",
+              "had bought",
+              "bought"
+            ],
+            "correct_idx": 1,
+            "answer": "had bought"
+          },
+          {
+            "id": "conditionals_rule_28",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«I wish it ___ raining.»",
+            "explanation": "I wish + would = желание, чтобы внешняя ситуация изменилась → would stop (надоел дождь).",
+            "options": [
+              "stops",
+              "stopped",
+              "would stop"
+            ],
+            "correct_idx": 2,
+            "answer": "would stop"
+          },
+          {
+            "id": "conditionals_rule_29",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Выбери форму:\n\n«If I ___ a superpower, I'd be invisible.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple → had.",
+            "options": [
+              "have",
+              "had",
+              "will have"
+            ],
+            "correct_idx": 1,
+            "answer": "had"
+          }
+        ],
+        "practice": [
+          {
+            "id": "conditionals_practice_0",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If you (MIX) blue and yellow, you get green.»",
+            "explanation": "Conditional 0: общая истина → Present Simple → mix.",
+            "answer": "mix"
+          },
+          {
+            "id": "conditionals_practice_1",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«Ice (MELT) if you leave it in the sun.»",
+            "explanation": "Conditional 0: закономерность → Present Simple; ice (ед.ч.) → melts.",
+            "answer": "melts"
+          },
+          {
+            "id": "conditionals_practice_2",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If water (REACH) 100 degrees, it boils.»",
+            "explanation": "Conditional 0: после if → Present Simple; water (ед.ч.) → reaches.",
+            "answer": "reaches"
+          },
+          {
+            "id": "conditionals_practice_3",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«Plants die if they (NOT/GET) enough water.»",
+            "explanation": "Conditional 0: после if → Present Simple, отрицание → don't get.",
+            "answer": "do not get"
+          },
+          {
+            "id": "conditionals_practice_4",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If I (BE) tired, I usually go to bed early.»",
+            "explanation": "Conditional 0: привычная закономерность → Present Simple → am.",
+            "answer": "am"
+          },
+          {
+            "id": "conditionals_practice_5",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«When the sun (GO) down, it gets dark.»",
+            "explanation": "Conditional 0: неизменный факт; the sun (ед.ч.) → goes.",
+            "answer": "goes"
+          },
+          {
+            "id": "conditionals_practice_6",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If you (HEAT) chocolate, it melts.»",
+            "explanation": "Conditional 0: общая истина → Present Simple → heat.",
+            "answer": "heat"
+          },
+          {
+            "id": "conditionals_practice_7",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«My dog barks if someone (KNOCK) at the door.»",
+            "explanation": "Conditional 0: закономерность; someone (ед.ч.) → knocks.",
+            "answer": "knocks"
+          },
+          {
+            "id": "conditionals_practice_8",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If you (NOT/SLEEP) enough, you feel tired.»",
+            "explanation": "Conditional 0: после if → Present Simple, отрицание → don't sleep.",
+            "answer": "do not sleep"
+          },
+          {
+            "id": "conditionals_practice_9",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If it (RAIN) tomorrow, we will stay at home.»",
+            "explanation": "Conditional 1: после if → Present Simple → rains.",
+            "answer": "rains"
+          },
+          {
+            "id": "conditionals_practice_10",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If you study hard, you (PASS) the exam.»",
+            "explanation": "Conditional 1: главная часть → will + V → will pass.",
+            "answer": "will pass"
+          },
+          {
+            "id": "conditionals_practice_11",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I (CALL) you if I have time tonight.»",
+            "explanation": "Conditional 1: главная часть → will call (условие в Present Simple).",
+            "answer": "will call"
+          },
+          {
+            "id": "conditionals_practice_12",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If she (NOT/HURRY), she will be late.»",
+            "explanation": "Conditional 1: после if → Present Simple, отрицание; she → doesn't hurry.",
+            "answer": "does not hurry"
+          },
+          {
+            "id": "conditionals_practice_13",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«We will go to the beach if the weather (BE) nice.»",
+            "explanation": "Conditional 1: после if → Present Simple → is.",
+            "answer": "is"
+          },
+          {
+            "id": "conditionals_practice_14",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If you (HELP) me, I will be grateful.»",
+            "explanation": "Conditional 1: после if → Present Simple → help.",
+            "answer": "help"
+          },
+          {
+            "id": "conditionals_practice_15",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«They (NOT/COME) if you don't invite them.»",
+            "explanation": "Conditional 1: главная часть → will + V, отрицание → won't come.",
+            "answer": "will not come"
+          },
+          {
+            "id": "conditionals_practice_16",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If I (FINISH) early, I'll join you.»",
+            "explanation": "Conditional 1: после if → Present Simple → finish.",
+            "answer": "finish"
+          },
+          {
+            "id": "conditionals_practice_17",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«You will feel better if you (TAKE) this medicine.»",
+            "explanation": "Conditional 1: после if → Present Simple → take.",
+            "answer": "take"
+          },
+          {
+            "id": "conditionals_practice_18",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If I (HAVE) more money, I would buy a new laptop.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple → had.",
+            "answer": "had"
+          },
+          {
+            "id": "conditionals_practice_19",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If she (BE) here, she would know what to do.»",
+            "explanation": "Conditional 2: с to be для всех лиц → were.",
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_practice_20",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I (TRAVEL) around the world if I were rich.»",
+            "explanation": "Conditional 2: главная часть → would + V → would travel.",
+            "answer": "would travel"
+          },
+          {
+            "id": "conditionals_practice_21",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If we (LIVE) by the sea, we would swim every day.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple → lived.",
+            "answer": "lived"
+          },
+          {
+            "id": "conditionals_practice_22",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If I were you, I (NOT/WORRY) about it.»",
+            "explanation": "Conditional 2: главная часть → would + V, отрицание → wouldn't worry.",
+            "answer": "would not worry"
+          },
+          {
+            "id": "conditionals_practice_23",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«He would help us if he (HAVE) time.»",
+            "explanation": "Conditional 2: после if → Past Simple → had.",
+            "answer": "had"
+          },
+          {
+            "id": "conditionals_practice_24",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If they (KNOW) the truth, they would be shocked.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple → knew.",
+            "answer": "knew"
+          },
+          {
+            "id": "conditionals_practice_25",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«If I (CAN) fly, I would visit you every day.»",
+            "explanation": "Conditional 2: can в нереальном условии превращается в could.",
+            "answer": "could"
+          },
+          {
+            "id": "conditionals_practice_26",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«She (BUY) that dress if it weren't so expensive.»",
+            "explanation": "Conditional 2: главная часть → would + V → would buy.",
+            "answer": "would buy"
+          },
+          {
+            "id": "conditionals_practice_27",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (KNOW) the answer to this question.»",
+            "explanation": "I wish + Past Simple = сожаление о настоящем → knew.",
+            "answer": "knew"
+          },
+          {
+            "id": "conditionals_practice_28",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (BE) taller.»",
+            "explanation": "I wish + were (для всех лиц с to be) = сожаление о настоящем.",
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_practice_29",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (NOT/SAY) that yesterday.»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом, отрицание → hadn't said.",
+            "answer": "had not said"
+          },
+          {
+            "id": "conditionals_practice_30",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish we (HAVE) more free time.»",
+            "explanation": "I wish + Past Simple = сожаление о настоящем → had.",
+            "answer": "had"
+          },
+          {
+            "id": "conditionals_practice_31",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish you (STOP) shouting.»",
+            "explanation": "I wish + would = недовольство чужим поведением → would stop.",
+            "answer": "would stop"
+          },
+          {
+            "id": "conditionals_practice_32",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (STUDY) medicine when I was younger.»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом → had studied.",
+            "answer": "had studied"
+          },
+          {
+            "id": "conditionals_practice_33",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\nI wish it (NOT/BE) so cold right now.»",
+            "explanation": "I wish + weren't = сожаление о настоящем (сейчас холодно).",
+            "answer": "were not"
+          },
+          {
+            "id": "conditionals_practice_34",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (BUY) that book when I had the chance.»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом → had bought.",
+            "answer": "had bought"
+          },
+          {
+            "id": "conditionals_practice_35",
+            "type": "open",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Раскрой скобки:\n\n«I wish I (CAN) speak Chinese.»",
+            "explanation": "I wish + could = сожаление о настоящем (не умею) → could.",
+            "answer": "could"
+          }
+        ],
+        "test": [
+          {
+            "id": "conditionals_test_0",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A younger student asks you a science question about mixing paint colours. You explain the general rule.\n\n«When you mix red and white paint, you ___ pink.»",
+            "explanation": "Conditional 0: общая истина (всегда так) → Present Simple → get.",
+            "options": [
+              "get",
+              "will get",
+              "would get"
+            ],
+            "correct_idx": 0,
+            "answer": "get"
+          },
+          {
+            "id": "conditionals_test_1",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A new friend asks about your daily habits and how a lack of rest affects you.\n\n«If I don't sleep enough, I always ___ tired the next day.»",
+            "explanation": "Conditional 0: привычная закономерность (always) → Present Simple → feel.",
+            "options": [
+              "will feel",
+              "felt",
+              "feel"
+            ],
+            "correct_idx": 2,
+            "answer": "feel"
+          },
+          {
+            "id": "conditionals_test_2",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your friend keeps forgetting about their houseplants. You warn them what happens in general.\n\n«Plants die if you ___ them.»",
+            "explanation": "Conditional 0: после if → Present Simple, отрицание → don't water.",
+            "options": [
+              "won't water",
+              "don't water",
+              "didn't water"
+            ],
+            "correct_idx": 1,
+            "answer": "don't water"
+          },
+          {
+            "id": "conditionals_test_3",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're teaching a child the basic rules of crossing the road safely.\n\n«If the traffic light is red, cars ___.»",
+            "explanation": "Conditional 0: неизменное правило → результат в Present Simple → stop.",
+            "options": [
+              "will stop",
+              "stop",
+              "stopped"
+            ],
+            "correct_idx": 1,
+            "answer": "stop"
+          },
+          {
+            "id": "conditionals_test_4",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You share an interesting physics fact with a classmate about how metal behaves.\n\n«Metal expands if you ___ it.»",
+            "explanation": "Conditional 0: научный факт → после if Present Simple → heat.",
+            "options": [
+              "heat",
+              "will heat",
+              "heated"
+            ],
+            "correct_idx": 0,
+            "answer": "heat"
+          },
+          {
+            "id": "conditionals_test_5",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A guest doesn't know how your coffee machine works, so you explain the general steps.\n\n«If you ___ this button, the machine turns on.»",
+            "explanation": "Conditional 0: общая закономерность → после if Present Simple → press.",
+            "options": [
+              "will press",
+              "pressed",
+              "press"
+            ],
+            "correct_idx": 2,
+            "answer": "press"
+          },
+          {
+            "id": "conditionals_test_6",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A child is curious about what happens to water at very low temperatures. You explain a simple fact.\n\n«Water ___ if you put it in the freezer.»",
+            "explanation": "Conditional 0: общая истина → Present Simple → freezes.",
+            "options": [
+              "freezes",
+              "will freeze",
+              "froze"
+            ],
+            "correct_idx": 0,
+            "answer": "freezes"
+          },
+          {
+            "id": "conditionals_test_7",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your friend is moving slowly, and the train leaves soon. You warn them.\n\n«If you don't leave now, you ___ the train.»",
+            "explanation": "Conditional 1: предупреждение о вероятном будущем → главная часть с will → will miss.",
+            "options": [
+              "will miss",
+              "miss",
+              "missed"
+            ],
+            "correct_idx": 0,
+            "answer": "will miss"
+          },
+          {
+            "id": "conditionals_test_8",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your little brother wants help with his homework. You set a friendly condition.\n\n«I'll help you with your homework if you ___ me nicely.»",
+            "explanation": "Conditional 1: после if → Present Simple → ask.",
+            "options": [
+              "will ask",
+              "asked",
+              "ask"
+            ],
+            "correct_idx": 2,
+            "answer": "ask"
+          },
+          {
+            "id": "conditionals_test_9",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You and a friend are planning to watch a football match this afternoon, but the sky looks uncertain.\n\n«If it rains this afternoon, we ___ the match.»",
+            "explanation": "Conditional 1: реальное условие, конкретное будущее → главная часть с will → will cancel.",
+            "options": [
+              "cancel",
+              "will cancel",
+              "would cancel"
+            ],
+            "correct_idx": 1,
+            "answer": "will cancel"
+          },
+          {
+            "id": "conditionals_test_10",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're making weekend plans with friends, and everything depends on tomorrow's forecast.\n\n«We will have a picnic if the weather ___ good tomorrow.»",
+            "explanation": "Conditional 1: после if будущее выражается Present Simple → is.",
+            "options": [
+              "will be",
+              "is",
+              "were"
+            ],
+            "correct_idx": 1,
+            "answer": "is"
+          },
+          {
+            "id": "conditionals_test_11",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're leaving school early and ask a classmate to pass on a message if they run into your teacher.\n\n«If you see Mr Brown, ___ him I said hello.»",
+            "explanation": "Conditional 1: главная часть может быть в повелительном наклонении → tell.",
+            "options": [
+              "you tell",
+              "telling",
+              "tell"
+            ],
+            "correct_idx": 2,
+            "answer": "tell"
+          },
+          {
+            "id": "conditionals_test_12",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're telling a friend about your plan to buy a phone, which depends on how much money is left this month.\n\n«If I ___ enough money this month, I'll buy a new phone.»",
+            "explanation": "Conditional 1: после if → Present Simple → save.",
+            "options": [
+              "save",
+              "will save",
+              "saved"
+            ],
+            "correct_idx": 0,
+            "answer": "save"
+          },
+          {
+            "id": "conditionals_test_13",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your teammate is unsure about a competition. You encourage them with the likely outcome of daily practice.\n\n«If you practise every day, you ___ improve quickly.»",
+            "explanation": "Conditional 1: реальное условие → главная часть с will → will improve.",
+            "options": [
+              "would",
+              "will",
+              "improved"
+            ],
+            "correct_idx": 1,
+            "answer": "will"
+          },
+          {
+            "id": "conditionals_test_14",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You and a friend are daydreaming about what you'd do with a huge amount of money.\n\n«If I had a million dollars, I ___ a house by the sea.»",
+            "explanation": "Conditional 2: воображаемая ситуация → главная часть с would → would buy.",
+            "options": [
+              "would buy",
+              "will buy",
+              "buy"
+            ],
+            "correct_idx": 0,
+            "answer": "would buy"
+          },
+          {
+            "id": "conditionals_test_15",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A colleague has been arriving late, and you warn them about the boss's reaction.\n\n«If you ___ late again, the boss will be angry.»",
+            "explanation": "Conditional 1: после if → Present Simple → are.",
+            "options": [
+              "will be",
+              "were",
+              "are"
+            ],
+            "correct_idx": 2,
+            "answer": "are"
+          },
+          {
+            "id": "conditionals_test_16",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your friend had an argument with her sister and asks for advice. You imagine yourself in her place.\n\n«If I ___ you, I would apologise to her.»",
+            "explanation": "Conditional 2: совет If I were you — всегда с were.",
+            "options": [
+              "was",
+              "were",
+              "am"
+            ],
+            "correct_idx": 1,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_test_17",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're talking about a close friend who lives in another country, far away from you.\n\n«If she lived nearer, we ___ each other every day.»",
+            "explanation": "Conditional 2: нереальная ситуация → главная часть с would → would see.",
+            "options": [
+              "will see",
+              "see",
+              "would see"
+            ],
+            "correct_idx": 2,
+            "answer": "would see"
+          },
+          {
+            "id": "conditionals_test_18",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You can't drive, so you apologise to a friend who needs a lift to the airport.\n\n«If I ___ how to drive, I would take you there myself.»",
+            "explanation": "Conditional 2: нереальное условие → Past Simple → knew.",
+            "options": [
+              "know",
+              "will know",
+              "knew"
+            ],
+            "correct_idx": 2,
+            "answer": "knew"
+          },
+          {
+            "id": "conditionals_test_19",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A friend asks why you don't visit your grandparents often. You explain it's because of transport.\n\n«If we had a car, we ___ visit my grandparents more often.»",
+            "explanation": "Conditional 2: в главной части возможен could (вежливо/возможность) → could visit.",
+            "options": [
+              "can",
+              "could",
+              "will"
+            ],
+            "correct_idx": 1,
+            "answer": "could"
+          },
+          {
+            "id": "conditionals_test_20",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're discussing a shy classmate who rarely takes part in lessons.\n\n«If he ___ more confident, he would speak up in class.»",
+            "explanation": "Conditional 2: нереальное условие → were (для всех лиц с to be).",
+            "options": [
+              "were",
+              "is",
+              "will be"
+            ],
+            "correct_idx": 0,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_test_21",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "A friend asks how regularly you visit a certain shop. You explain that distance is the problem.\n\n«If the shop weren't so far, I ___ there more often.»",
+            "explanation": "Conditional 2: нереальная ситуация → главная часть с would → would go.",
+            "options": [
+              "would go",
+              "will go",
+              "go"
+            ],
+            "correct_idx": 0,
+            "answer": "would go"
+          },
+          {
+            "id": "conditionals_test_22",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're having a fun, imaginative chat with a friend about animals.\n\n«If animals ___ talk, what would they say?»",
+            "explanation": "Conditional 2: воображаемое условие → can превращается в could.",
+            "options": [
+              "can",
+              "could",
+              "will"
+            ],
+            "correct_idx": 1,
+            "answer": "could"
+          },
+          {
+            "id": "conditionals_test_23",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "It's a very hot day, and you're complaining to a friend about the temperature.\n\n«It's so hot. I wish it ___ cooler.»",
+            "explanation": "I wish + were = сожаление о настоящем (реально жарко).",
+            "options": [
+              "is",
+              "was going to be",
+              "were"
+            ],
+            "correct_idx": 2,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_test_24",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You've just got your exam results and you didn't pass. You regret your preparation.\n\n«I failed the exam. I wish I ___ harder.»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом → had studied.",
+            "options": [
+              "had studied",
+              "studied",
+              "study"
+            ],
+            "correct_idx": 0,
+            "answer": "had studied"
+          },
+          {
+            "id": "conditionals_test_25",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You went shopping and used up far more than you planned. Now you regret it.\n\n«I spent all my money. I wish I ___ so much.»",
+            "explanation": "I wish + Past Perfect = сожаление о прошлом, отрицание → hadn't spent.",
+            "options": [
+              "hadn't spent",
+              "didn't spend",
+              "don't spend"
+            ],
+            "correct_idx": 0,
+            "answer": "hadn't spent"
+          },
+          {
+            "id": "conditionals_test_26",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "At a party, everyone around you is chatting in French — a language you never learned.\n\n«Everyone here speaks French except me. I wish I ___ it too.»",
+            "explanation": "I wish + Past Simple = сожаление о настоящем → spoke.",
+            "options": [
+              "speak",
+              "spoke",
+              "will speak"
+            ],
+            "correct_idx": 1,
+            "answer": "spoke"
+          },
+          {
+            "id": "conditionals_test_27",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your neighbours play loud music late at night, and it really annoys you.\n\n«My neighbours are so loud at night. I wish they ___ quiet.»",
+            "explanation": "I wish + would = желание, чтобы поведение других изменилось → would be.",
+            "options": [
+              "are",
+              "will be",
+              "would be"
+            ],
+            "correct_idx": 2,
+            "answer": "would be"
+          },
+          {
+            "id": "conditionals_test_28",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "You're trying to reach something on a high shelf, but you're too short.\n\n«I'm too short to reach the shelf. I wish I ___ taller.»",
+            "explanation": "I wish + were = сожаление о настоящем (реально невысокий).",
+            "options": [
+              "am",
+              "will be",
+              "were"
+            ],
+            "correct_idx": 2,
+            "answer": "were"
+          },
+          {
+            "id": "conditionals_test_29",
+            "type": "choice",
+            "code": "2.4.10",
+            "task_type": "Conditionals 0",
+            "context": "Your flat is very small and cramped, and you mention this to a friend.\n\n«This flat is tiny. I wish we ___ more space.»",
+            "explanation": "I wish + Past Simple = сожаление о настоящем → had.",
+            "options": [
+              "have",
+              "had",
+              "will have"
+            ],
+            "correct_idx": 1,
+            "answer": "had"
+          }
+        ]
       }
     }
   ]

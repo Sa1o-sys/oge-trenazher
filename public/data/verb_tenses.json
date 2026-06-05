@@ -182,8 +182,8 @@
               "Это показывает будущее",
               "Это общеизвестный факт / закон природы"
             ],
-            "correct_idx": 0,
-            "answer": "Это происходит прямо сейчас"
+            "correct_idx": 2,
+            "answer": "Это общеизвестный факт / закон природы"
           },
           {
             "id": "verb_tenses_razberis_9",
@@ -941,7 +941,7 @@
             "type": "open",
             "code": "2.4.30",
             "task_type": "Present Simple",
-            "context": "Раскрой скобки:\n\n«We've decided: we (TRAVEL) to Spain this summer.»",
+            "context": "Раскрой скобки:\n\n«We've decided that we (TRAVEL) to Spain this summer.»",
             "explanation": "Обдуманное намерение/решение → to be going to: are going to travel.",
             "answer": "are going to travel"
           },
@@ -1420,8 +1420,8 @@
             "type": "choice",
             "code": "2.4.30",
             "task_type": "Present Simple",
-            "context": "You describe an old photo. In it, you are in the middle of a dance, and your brother has a guitar in his hands.\n«In this photo I ___ while my brother played the guitar.»",
-            "explanation": "Длительное фоновое действие в прошлом → Past Continuous (was dancing).",
+            "context": "You describe an old photo. In it, you are in the middle of a dance, and your brother has a guitar in his hands.\n«In this photo I ___ while my brother playing the guitar.»",
+            "explanation": "Два одновременных действия → Past Continuous оба.",
             "options": [
               "danced",
               "was dancing",
