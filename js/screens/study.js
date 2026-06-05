@@ -196,15 +196,38 @@ export function renderStageSummary() {
   if (needRepeat.length === 0) {
     mistakesHtml = `<p style="color:var(--sage);text-align:center;padding:12px">🎉 Все задания выполнены верно!</p>`;
   } else {
-    needRepeat.slice(0, 5).forEach(id => {
+    const visibleCount = 5;
+    const hasMore = needRepeat.length > visibleCount;
+    
+    // Отображаем первые 5 ошибок
+    needRepeat.slice(0, visibleCount).forEach(id => {
       const task = exercises.find(t => t.id === id);
       if (!task) return;
-      const mark       = wrong.includes(id) ? '❌' : '⏭';
+      const mark = wrong.includes(id) ? '❌' : '⏭';
       const answerText = task.type === 'choice' ? getChoiceAnswerText(task) : task.answer;
-      mistakesHtml    += `<div class="mistake-item">${mark} <strong>${task.context.slice(0, 80)}${task.context.length > 80 ? '…' : ''}</strong><br><span>Ответ: ${answerText}</span></div>`;
+      mistakesHtml += `<div class="mistake-item" data-task-id="${id}">${mark} <strong>${task.context.slice(0, 80)}${task.context.length > 80 ? '…' : ''}</strong><br><span>Ответ: ${answerText}</span></div>`;
     });
-    if (needRepeat.length > 5) {
-      mistakesHtml += `<div class="mistake-item" style="color:var(--text-muted);text-align:center">...и ещё ${needRepeat.length - 5} заданий</div>`;
+    
+    // Добавляем кнопку "Показать все", если есть ещё ошибки
+    if (hasMore) {
+      const remainingCount = needRepeat.length - visibleCount;
+      mistakesHtml += `
+        <div class="mistake-item" data-action="show" style="text-align:center;cursor:pointer;background:var(--bg2);color:var(--accent);font-weight:500;border:1px solid var(--border);">
+          ▼ Показать все ошибки (ещё ${remainingCount})
+        </div>
+        <div id="all-mistakes-container" style="display:none">
+          ${needRepeat.slice(visibleCount).map(id => {
+            const task = exercises.find(t => t.id === id);
+            if (!task) return '';
+            const mark = wrong.includes(id) ? '❌' : '⏭';
+            const answerText = task.type === 'choice' ? getChoiceAnswerText(task) : task.answer;
+            return `<div class="mistake-item" data-task-id="${id}">${mark} <strong>${task.context.slice(0, 80)}${task.context.length > 80 ? '…' : ''}</strong><br><span>Ответ: ${answerText}</span></div>`;
+          }).join('')}
+          <div class="mistake-item" data-action="hide" style="text-align:center;cursor:pointer;background:var(--bg2);color:var(--text-muted);font-weight:500;border:1px solid var(--border);">
+            ▲ Скрыть
+          </div>
+        </div>
+      `;
     }
   }
 
@@ -219,8 +242,8 @@ export function renderStageSummary() {
             ? `<div style="color:var(--text-muted);font-size:0.85rem;margin-top:8px">Нужно 40% для разблокировки следующего этапа</div>`
             : ''}
       </div>
-      ${needRepeat.length > 0 ? '<div class="section-title">Требуют повторения</div>' : ''}
-      <div class="mistakes-list">${mistakesHtml}</div>
+      ${needRepeat.length > 0 ? '<div class="section-title">ТРЕБУЮТ ПОВТОРЕНИЯ</div>' : ''}
+      <div class="mistakes-list" id="mistakes-list">${mistakesHtml}</div>
       <div class="summary-actions">
         <button class="btn btn-secondary" onclick="renderStageSelect()">← К этапам</button>
         ${needRepeat.length > 0
@@ -229,7 +252,41 @@ export function renderStageSummary() {
         <button class="btn btn-primary" onclick="startStage('${stageKey}')">↺ Пройти ещё раз</button>
         ${nextUnlocked ? `<button class="btn btn-success" onclick="startStage('${nextKey}')">Дальше: ${STAGE_LABELS[nextKey]} →</button>` : ''}
       </div>
-    </div>`);
+    </div>
+  `);
+
+  // Функция для раскрытия/скрытия всех ошибок
+  function setupMistakesToggle() {
+    setTimeout(() => {
+      const showBtn = document.querySelector('[data-action="show"]');
+      const hideBtn = document.querySelector('[data-action="hide"]');
+      const container = document.getElementById('all-mistakes-container');
+      
+      if (showBtn && container) {
+        const newShowBtn = showBtn.cloneNode(true);
+        showBtn.parentNode.replaceChild(newShowBtn, showBtn);
+        
+        newShowBtn.addEventListener('click', function() {
+          container.style.display = 'block';
+          this.style.display = 'none';
+        });
+      }
+      
+      if (hideBtn && container) {
+        const newHideBtn = hideBtn.cloneNode(true);
+        hideBtn.parentNode.replaceChild(newHideBtn, hideBtn);
+        
+        newHideBtn.addEventListener('click', function() {
+          container.style.display = 'none';
+          const showTrigger = document.querySelector('[data-action="show"]');
+          if (showTrigger) showTrigger.style.display = 'block';
+        });
+      }
+    }, 50);
+  }
+  
+  // Вызываем настройку кнопок после рендера
+  setupMistakesToggle();
 }
 
 export function startRepeatErrors() {
@@ -360,5 +417,36 @@ export function checkRepeatAnswer(taskId) {
       ${task.explanation ? `<div class="cognitive-hint">💡 ${escapeHtml(task.explanation)}</div>` : ''}`;
     actions.innerHTML = `<button class="btn btn-warning" style="margin-top:12px" id="next-btn" onclick="renderRepeatTask()">Понял, далее →</button>`;
   }
+
+  // Функция для раскрытия/скрытия всех ошибок
+window.toggleAllMistakes = function() {
+  const container = document.getElementById('all-mistakes-container');
+  const trigger = document.getElementById('show-more-trigger');
+  
+  if (!container) return;
+  
+  const isHidden = container.style.display === 'none';
+  
+  if (isHidden) {
+    container.style.display = 'block';
+    if (trigger) trigger.style.display = 'none';
+  } else {
+    container.style.display = 'none';
+    if (trigger) trigger.style.display = 'block';
+  }
+};
+
+// Добавляем обработчики после рендера (через делегирование)
+document.addEventListener('click', function(e) {
+  const triggerBtn = e.target.closest('#show-more-trigger');
+  const hideBtn = e.target.closest('#hide-mistakes-trigger');
+  
+  if (triggerBtn) {
+    window.toggleAllMistakes();
+  }
+  if (hideBtn) {
+    window.toggleAllMistakes();
+  }
+});
 }
 

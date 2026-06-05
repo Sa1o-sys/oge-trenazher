@@ -8,6 +8,7 @@ import {
   doc, getDoc, updateDoc, arrayUnion, arrayRemove,
   collection, query, where, getDocs
 } from "https://www.gstatic.com/firebasejs/10.12.0/firebase-firestore.js";
+import { fetchAsset } from './js/fetch-utils.js';
 
 const STAGE_KEYS = ['razberis', 'rule', 'practice', 'test'];
 const STAGE_LABELS = {
@@ -20,12 +21,28 @@ const STAGE_LABELS = {
 let TEACHER_DATA = null;
 let TASK_INDEX = new Map();
 
-import { fetchAsset } from './js/fetch-utils.js';
-
 async function ensureTeacherData() {
   if (TEACHER_DATA) return TEACHER_DATA;
-  const res = await fetchAsset('data.json');
-  TEACHER_DATA = await res.json();
+  
+  // Загружаем index.json (список категорий)
+  const indexRes = await fetchAsset('data/index.json');
+  const indexData = await indexRes.json();
+  
+  // Загружаем данные для каждой категории отдельно
+  const categories = [];
+  for (const cat of indexData.categories) {
+    try {
+      const catRes = await fetchAsset(`data/${cat.id}.json`);
+      const catData = await catRes.json();
+      categories.push(catData);
+    } catch (e) {
+      console.warn(`Не удалось загрузить категорию ${cat.id}:`, e);
+      // Если файл не найден, используем метаданные из index.json
+      categories.push(cat);
+    }
+  }
+  
+  TEACHER_DATA = { categories };
   TASK_INDEX = buildTaskIndex(TEACHER_DATA.categories || []);
   return TEACHER_DATA;
 }

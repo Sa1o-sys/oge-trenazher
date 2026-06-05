@@ -170,12 +170,12 @@ p  { color: var(--text-muted); }
 .answer-input.correct { border-color: var(--sage); background: #f4faf3; }
 .answer-input.wrong   { border-color: var(--rose); background: #fdf5f4; }
 
-.feedback-block { border-radius: var(--radius); padding: 14px 18px; margin-bottom: 14px; font-size: 0.9rem; line-height: 1.6; animation: fadeSlideIn 0.25s ease; }
+.feedback-block { border-radius: var(--radius); padding: 14px 18px; margin-bottom: 20px; font-size: 0.9rem; line-height: 1.6; animation: fadeSlideIn 0.25s ease; }
 .feedback-block.correct { background: #f4faf3; border: 1px solid #c8ddc4; color: var(--sage); }
 .feedback-block.wrong   { background: #fdf5f4; border: 1px solid #e8c4be; color: var(--text); }
 .feedback-block .correct-answer { font-weight: 600; color: var(--sage); }
 .feedback-block .cognitive-hint { color: var(--text-muted); margin-top: 6px; font-size: 0.83rem; }
-.practice-actions { display: flex; gap: 8px; flex-wrap: wrap; }
+.practice-actions { display: flex; gap: 8px; flex-wrap: wrap; margin-top: 28px; }
 
 .summary-result { text-align: center; padding: 28px 0; margin-bottom: 24px; }
 .summary-big-score { font-family: var(--font-display); font-size: clamp(3rem,10vw,5rem); font-weight: 600; color: var(--accent); line-height: 1; margin-bottom: 6px; }
@@ -1571,12 +1571,26 @@ p  { color: var(--text-muted); }
 }
 .summary-actions .btn { flex: 1 1 auto; min-width: 140px; text-align: center; }
 
-/* ── Keyboard shortcut hint ────────────────────────────── */
-#next-btn::after {
-  content: ' (→)';
-  font-size: 0.72em;
-  opacity: 0.55;
-  font-weight: 400;
+/* Стили для кнопки "Показать все ошибки" */
+.show-more-trigger {
+  transition: all 0.2s ease;
 }
-@media (pointer: coarse) { #next-btn::after { display: none; } }
 
+.show-more-trigger:hover {
+  background: var(--border) !important;
+  transform: translateY(-1px);
+}
+
+/* Стили для списка ошибок */
+.mistakes-list {
+  margin-bottom: 20px;
+}
+
+.mistake-item {
+  transition: all 0.15s ease;
+}
+
+.mistake-item:hover {
+  background: var(--bg2);
+  transform: translateX(4px);
+}
