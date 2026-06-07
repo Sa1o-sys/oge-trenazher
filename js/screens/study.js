@@ -174,10 +174,33 @@ export function saveStageProgress() {
   const catId = state.currentCategory.id;
   const subId = state.currentSubtopic.id;
   const sp    = getSubtopicProgress(catId, subId);
+  
   if (!sp.stageProgress) sp.stageProgress = {};
-  sp.stageProgress[stageKey] = { correctIds: correct, wrongIds: wrong, skippedIds: skipped };
-  setSubtopicProgress(catId, subId, sp);
-  checkUnlocks(catId, subId);
+  
+  // Текущая новая попытка
+  const newAttempt = { 
+    correctIds: [...correct], 
+    wrongIds: [...wrong], 
+    skippedIds: [...skipped] 
+  };
+  
+  // Сохранённый ранее лучший результат
+  const savedBest = sp.stageProgress[stageKey];
+  
+  // Считаем количество правильных ответов
+  const newScore = newAttempt.correctIds.length;
+  const savedScore = savedBest ? savedBest.correctIds.length : -1;
+  
+  // Сохраняем только если новая попытка ЛУЧШЕ или это первая попытка
+  if (savedScore === -1 || newScore > savedScore) {
+    sp.stageProgress[stageKey] = newAttempt;
+    setSubtopicProgress(catId, subId, sp);
+    checkUnlocks(catId, subId);
+    
+    console.log(`✅ ${stageKey}: результат улучшен! ${savedScore === -1 ? '0' : savedScore} → ${newScore} правильных`);
+  } else {
+    console.log(`⏸️ ${stageKey}: результат НЕ улучшен (${savedScore} ≥ ${newScore})`);
+  }
 }
 
 export function renderStageSummary() {

@@ -114,6 +114,10 @@ export function checkUnlocks(catId, subId) {
   const unlocked = [...(sp.unlockedStages || ['razberis'])];
   let changed    = false;
 
+console.log("🔓 checkUnlocks для:", catId, subId);
+console.log("  Текущие unlocked:", unlocked);
+
+
   STAGE_ORDER.forEach(sk => {
     const next = STAGE_NEXT[sk];
     if (!next || unlocked.includes(next)) return;
@@ -121,6 +125,7 @@ export function checkUnlocks(catId, subId) {
   });
 
   if (changed) {
+    console.log("  ✅ Новые unlocked:", unlocked);
     sp.unlockedStages = unlocked;
     setSubtopicProgress(catId, subId, sp);
   }
