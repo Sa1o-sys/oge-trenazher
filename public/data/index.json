@@ -110,10 +110,10 @@
             ["2.4.32", "Future-in-the-past"]
           ],
           "stageCounts": {
-            "razberis": 30,
-            "rule": 30,
-            "practice": 30,
-            "test": 30  
+            "razberis": 32,
+            "rule": 40,
+            "practice": 48,
+            "test": 40  
           }
         }
       ]

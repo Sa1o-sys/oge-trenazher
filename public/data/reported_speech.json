@@ -7,12 +7,30 @@
       "id": "reported_speech_main",
       "name": "Косвенная речь и согласование времени",
       "description_items": [
-        ["2.4.13", "Утверждения и отрицания в косвенной речи"],
-        ["2.4.13", "Вопросы в косвенной речи"],
-        ["2.4.13", "Побудительные предложения в косвенной речи"],
-        ["2.4.12", "Согласование времен"],
-        ["2.4.35", "Модальные глаголы в косвенной речи"],
-        ["2.4.32", "Future-in-the-past"]
+        [
+          "2.4.13",
+          "Утверждения и отрицания в косвенной речи"
+        ],
+        [
+          "2.4.13",
+          "Вопросы в косвенной речи"
+        ],
+        [
+          "2.4.13",
+          "Побудительные предложения в косвенной речи"
+        ],
+        [
+          "2.4.12",
+          "Согласование времен"
+        ],
+        [
+          "2.4.35",
+          "Модальные глаголы в косвенной речи"
+        ],
+        [
+          "2.4.32",
+          "Future-in-the-past"
+        ]
       ],
       "stages": {
         "razberis": [
@@ -20,20 +38,2121 @@
             "id": "reported_speech_razberis_0",
             "type": "choice",
             "code": "2.4.13",
-            "task_type": "Анализ примеров",
-            "context": "Здесь ваш первый вопрос для разбора темы...",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am tired.» → He said he was tired.\n\nПочему am → was?",
+            "explanation": "Согласование времён: если глагол ввода стоит в прошедшем (said), время в косвенной речи сдвигается на шаг назад. Present Simple → Past Simple.",
             "options": [
-              "Вариант 1",
-              "Вариант 2"
+              "При словах автора в прошлом (said) настоящее время сдвигается в прошлое (согласование времён)",
+              "Это ошибка",
+              "Случайно"
             ],
-            "answer": "Вариант 1",
             "correct_idx": 0,
-            "explanation": "Объяснение правила."
+            "answer": "При словах автора в прошлом (said) настоящее время сдвигается в прошлое (согласование времён)"
+          },
+          {
+            "id": "reported_speech_razberis_1",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I will help you.» → He said he would help me.\n\nПочему will → would?",
+            "explanation": "will при согласовании времён переходит в would. Это и есть future-in-the-past — будущее с точки зрения момента в прошлом.",
+            "options": [
+              "Они взаимозаменяемы",
+              "would — это прошедшее от win",
+              "will в косвенной речи превращается в would"
+            ],
+            "correct_idx": 2,
+            "answer": "will в косвенной речи превращается в would"
+          },
+          {
+            "id": "reported_speech_razberis_2",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I like your dress.» (Анна сказала мне) → Anna said she liked my dress.\n\nПочему I → she, your → my?",
+            "explanation": "В косвенной речи местоимения перестраиваются по смыслу: говорящий (Anna) → she; «твоё» (обращённое ко мне) → «моё» (my).",
+            "options": [
+              "Местоимения меняются в зависимости от времени",
+              "Местоимения меняются по смыслу",
+              "Меняется только время, местоимения должны остаться такими же"
+            ],
+            "correct_idx": 1,
+            "answer": "Местоимения меняются по смыслу"
+          },
+          {
+            "id": "reported_speech_razberis_3",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Do you speak English?» → She asked if I spoke English.\n\nЗачем появилось if?",
+            "explanation": "Общие (yes/no) вопросы в косвенной речи вводятся союзом if или whether, после которого идёт прямой порядок слов. На русский язык такие предложения мы переводим через \\\"ли\\\". Она спросила, говорю ли я на английском языке.",
+            "options": [
+              "if лишнее",
+              "Общий вопрос (без вопросительного слова) вводится словом if/whether",
+              "Просто так лучше звучит"
+            ],
+            "correct_idx": 1,
+            "answer": "Общий вопрос (без вопросительного слова) вводится словом if/whether"
+          },
+          {
+            "id": "reported_speech_razberis_4",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Close the door.» → He told me to close the door.\n\nКак передаётся приказ?",
+            "explanation": "Побудительные предложения передаются через told/asked + дополнение + (to) инфинитив: told me to close the door.",
+            "options": [
+              "Через if",
+              "Через that-clause",
+              "Через конструкцию told + me + to + инфинитив"
+            ],
+            "correct_idx": 2,
+            "answer": "Через конструкцию told + me + to + инфинитив"
+          },
+          {
+            "id": "reported_speech_razberis_5",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Where do you live?» → He asked where I lived.\n\nЧто произошло с порядком слов и do?",
+            "explanation": "В косвенной речи порядок слов становится прямой (как в утверждении), даже если мы переделываем вопрос. Вспомогательный do/does/did убирается, а его время переходит на смысловой глагол: lived.",
+            "options": [
+              "Прямой порядок слов, вспомогательный do исчез: do you live → I lived",
+              "Порядок остался неизменным",
+              "Do - это ошибка в вопросе, не нужно было этот глагол добавлять."
+            ],
+            "correct_idx": 0,
+            "answer": "Прямой порядок слов, вспомогательный do исчез: do you live → I lived"
+          },
+          {
+            "id": "reported_speech_razberis_6",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Don't be late.» → She told me not to be late.\n\nКак передаётся отрицательный приказ?",
+            "explanation": "Отрицательный приказ передаётся частицей not перед to-инфинитивом: told me not to be late.",
+            "options": [
+              "Через not + to + инфинитив (not to be)",
+              "Через don't to be",
+              "Через if not"
+            ],
+            "correct_idx": 0,
+            "answer": "Через not + to + инфинитив (not to be)"
+          },
+          {
+            "id": "reported_speech_razberis_7",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I can swim.» → He said he could swim.\n\nПочему can → could?",
+            "explanation": "Модальный глагол can при согласовании времён переходит в could.",
+            "options": [
+              "could — это модальный глагол, который имеет другую форму (can). Эти две формы взаимозаменяемые в любом контексте.",
+              "Модальный can в косвенной речи (после прошедшего) превращается в could",
+              "Ничего не изменилось"
+            ],
+            "correct_idx": 1,
+            "answer": "Модальный can в косвенной речи (после прошедшего) превращается в could"
+          },
+          {
+            "id": "reported_speech_razberis_8",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I will call you tomorrow.» → He said he would call me the next day.\n\nПочему tomorrow → the next day?",
+            "explanation": "Указатели времени в косвенной речи сдвигаются относительно момента пересказа: tomorrow → the next day / the following day.",
+            "options": [
+              "Это ошибка",
+              "Слова времени не меняются",
+              "Обстоятельства времени сдвигаются: tomorrow → the next day (the following day)"
+            ],
+            "correct_idx": 2,
+            "answer": "Обстоятельства времени сдвигаются: tomorrow → the next day (the following day)"
+          },
+          {
+            "id": "reported_speech_razberis_9",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I saw him.» → She said she had seen him.\n\nПочему saw → had seen?",
+            "explanation": "Past Simple (saw) при согласовании времён переходит в Past Perfect (had seen) — на шаг глубже в прошлое.",
+            "options": [
+              "Past Simple при согласовании сдвигается ещё дальше — в Past Perfect",
+              "saw не должно меняться",
+              "had seen — это будущее"
+            ],
+            "correct_idx": 0,
+            "answer": "Past Simple при согласовании сдвигается ещё дальше — в Past Perfect"
+          },
+          {
+            "id": "reported_speech_razberis_10",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I must go.» → He said he had to go.\n\nПочему must → had to?",
+            "explanation": "must в значении необходимости в косвенной речи обычно заменяется на had to (прошедшая форма обязанности).",
+            "options": [
+              "must и had to взаимозаменяемы",
+              "must не меняется никогда",
+              "must (необходимость) в косвенной речи обычно становится had to"
+            ],
+            "correct_idx": 2,
+            "answer": "must (необходимость) в косвенной речи обычно становится had to"
+          },
+          {
+            "id": "reported_speech_razberis_11",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am reading.» → She said she was reading.\n\nЧто произошло?",
+            "explanation": "Present Continuous (am reading) при согласовании времён переходит в Past Continuous (was reading).",
+            "options": [
+              "Ничего",
+              "am reading → has read",
+              "Present Continuous сдвинулся в Past Continuous (was reading)"
+            ],
+            "correct_idx": 2,
+            "answer": "Present Continuous сдвинулся в Past Continuous (was reading)"
+          },
+          {
+            "id": "reported_speech_razberis_12",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«She ___ me that she was busy.»\n\nКакой глагол нужен — said или told?",
+            "explanation": "tell всегда требует дополнения (told me). say используется без дополнения (said that…) или с предлогом (said to me).",
+            "options": [
+              "said (say требует дополнения)",
+              "told (tell употребляется с дополнением: told me)",
+              "Оба одинаковы"
+            ],
+            "correct_idx": 1,
+            "answer": "told (tell употребляется с дополнением: told me)"
+          },
+          {
+            "id": "reported_speech_razberis_13",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am busy now.» → He said he was busy then.\n\nПочему now → then?",
+            "explanation": "Наречие времени now при пересказе сдвигается в then («тогда»).",
+            "options": [
+              "now (сейчас) при пересказе сдвигается в then (тогда)",
+              "now не должно меняться",
+              "now → tomorrow"
+            ],
+            "correct_idx": 0,
+            "answer": "now (сейчас) при пересказе сдвигается в then (тогда)"
+          },
+          {
+            "id": "reported_speech_razberis_14",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«What are you doing?» → He asked what I was doing.\n\nЧто изменилось?",
+            "explanation": "В косвенном специальном вопросе вопросительное слово сохраняется, но порядок слов становится прямым, а время сдвигается на одно время назад.",
+            "options": [
+              "Прямой порядок слов + сдвиг времени (are doing → was doing)",
+              "Порядок остался вопросительным, изменилось только время",
+              "Время не изменилось, изменился порядок"
+            ],
+            "correct_idx": 0,
+            "answer": "Прямой порядок слов + сдвиг времени (are doing → was doing)"
+          },
+          {
+            "id": "reported_speech_razberis_15",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Come here.» → He told me to go there.\n\nПочему here → there?",
+            "explanation": "Наречие места here при пересказе сдвигается в there. Глагол come часто меняется на go в зависимости от точки зрения.",
+            "options": [
+              "here не должно меняться",
+              "Наречие места here («сюда/здесь») сдвигается в there («туда/там»)",
+              "here →  нужно переделать в now"
+            ],
+            "correct_idx": 1,
+            "answer": "Наречие места here («сюда/здесь») сдвигается в there («туда/там»)"
+          },
+          {
+            "id": "reported_speech_razberis_16",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I may come.» → He said he might come.\n\nЧто изменилось?",
+            "explanation": "Модальный глагол may при согласовании времён переходит в might.",
+            "options": [
+              "may → must",
+              "Модальный may в косвенной речи превращается в might",
+              "may не меняется"
+            ],
+            "correct_idx": 1,
+            "answer": "Модальный may в косвенной речи превращается в might"
+          },
+          {
+            "id": "reported_speech_razberis_17",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I like this book.» → She said she liked that book.\n\nЧто изменилось?",
+            "explanation": "Указательное местоимение this при пересказе сдвигается в that (these → those).",
+            "options": [
+              "this не меняется",
+              "Указательное this при пересказе сдвигается в that",
+              "this → these"
+            ],
+            "correct_idx": 1,
+            "answer": "Указательное this при пересказе сдвигается в that"
+          },
+          {
+            "id": "reported_speech_razberis_18",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I have finished.» → She said she had finished.\n\nЧто произошло с have finished?",
+            "explanation": "Present Perfect (have finished) при согласовании времён переходит в Past Perfect (had finished).",
+            "options": [
+              "Стало will finish",
+              "Не изменилось",
+              "Present Perfect (have finished) сдвинулся в Past Perfect (had finished)"
+            ],
+            "correct_idx": 2,
+            "answer": "Present Perfect (have finished) сдвинулся в Past Perfect (had finished)"
+          },
+          {
+            "id": "reported_speech_razberis_19",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Please help me.» → He asked me to help him.\n\nКакой глагол вводит вежливую просьбу?",
+            "explanation": "Вежливые просьбы вводятся глаголом ask: asked me to + инфинитив.",
+            "options": [
+              "ask (asked me to…) — для просьб",
+              "help",
+              "tell обязательно"
+            ],
+            "correct_idx": 0,
+            "answer": "ask (asked me to…) — для просьб"
+          },
+          {
+            "id": "reported_speech_razberis_20",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I met him yesterday.» → He said he had met him the day before.\n\nПочему yesterday → the day before?",
+            "explanation": "Указатель времени yesterday при пересказе сдвигается в the day before или the previous day.",
+            "options": [
+              "Это ошибка",
+              "yesterday не должно меняться",
+              "yesterday сдвигается в the day before (the previous day)"
+            ],
+            "correct_idx": 2,
+            "answer": "yesterday сдвигается в the day before (the previous day)"
+          },
+          {
+            "id": "reported_speech_razberis_21",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«The sun rises in the east.» → The teacher said the sun rises in the east.\n\nПочему время МОЖЕТ не меняться?",
+            "explanation": "Если в косвенной речи передаётся общеизвестная истина или постоянный факт, согласование времён можно не применять.",
+            "options": [
+              "Если высказывание — общеизвестная истина, время можно не сдвигать",
+              "Это всегда обязательно",
+              "Истины всегда сдвигаются, поэтому это ошибка"
+            ],
+            "correct_idx": 0,
+            "answer": "Если высказывание — общеизвестная истина, время можно не сдвигать"
+          },
+          {
+            "id": "reported_speech_razberis_22",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Are you coming?» → She asked whether I was coming.\n\nЧто вводит общий вопрос наряду с if?",
+            "explanation": "Общие вопросы в косвенной речи вводятся if или whether — это синонимы.",
+            "options": [
+              "that",
+              "whether (синоним if в косвенных вопросах)",
+              "what"
+            ],
+            "correct_idx": 1,
+            "answer": "whether (синоним if в косвенных вопросах)"
+          },
+          {
+            "id": "reported_speech_razberis_23",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Stand up!» (строго) → The teacher ordered us to stand up.\n\nКакой глагол подходит для строгого приказа?",
+            "explanation": "Строгий приказ можно ввести глаголом order: ordered us to stand up. Конструкция та же — глагол + дополнение + to-инфинитив.",
+            "options": [
+              "asked",
+              "said",
+              "ordered (told / ordered + to + инфинитив)"
+            ],
+            "correct_idx": 2,
+            "answer": "ordered (told / ordered + to + инфинитив)"
+          },
+          {
+            "id": "reported_speech_razberis_24",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«We will win.» → They believed they would win.\n\nЧто выражает would win?",
+            "explanation": "would win — это future-in-the-past: будущее действие, рассматриваемое из момента в прошлом. Они верили, что они выиграют.",
+            "options": [
+              "Будущее с точки зрения прошлого (future-in-the-past)",
+              "Прошедшее завершённое",
+              "Условие"
+            ],
+            "correct_idx": 0,
+            "answer": "Будущее с точки зрения прошлого (future-in-the-past)"
+          },
+          {
+            "id": "reported_speech_razberis_25",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«He said to me…» / «He told me…»\n\nВ чём разница?",
+            "explanation": "say сочетается с дополнением только через предлог to (said to me) либо идёт без него (said that…). tell берёт дополнение напрямую (told me).",
+            "options": [
+              "Нет разницы",
+              "say + to + дополнение (said to me) или say без дополнения; tell — сразу с дополнением (told me)",
+              "tell нельзя использовать без to"
+            ],
+            "correct_idx": 1,
+            "answer": "say + to + дополнение (said to me) или say без дополнения; tell — сразу с дополнением (told me)"
+          },
+          {
+            "id": "reported_speech_razberis_26",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I saw her two days ago.» → He said he had seen her two days before.\n\nЧто изменилось?",
+            "explanation": "Указатель времени ago при пересказе сдвигается в before (two days ago → two days before).",
+            "options": [
+              "ago при пересказе сдвигается в before",
+              "ago не меняется",
+              "ago → later"
+            ],
+            "correct_idx": 0,
+            "answer": "ago при пересказе сдвигается в before"
+          },
+          {
+            "id": "reported_speech_razberis_27",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am sleeping.» → He said he was sleeping.\n\nЧто произошло?",
+            "explanation": "Present Continuous (am sleeping) при согласовании времён обычно переходит в Past Continuous (was sleeping).",
+            "options": [
+              "Стало Present",
+              "Не изменилось",
+              "Present Continuous обычно сдвигается в Past Continuous"
+            ],
+            "correct_idx": 2,
+            "answer": "Present Continuous обычно сдвигается в Past Continuous"
+          },
+          {
+            "id": "reported_speech_razberis_28",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I'm leaving tonight.» → He said he was leaving that night.\n\nЧто мы здесь видим?",
+            "explanation": "Указатель времени tonight при пересказе сдвигается в that night.",
+            "options": [
+              "tonight при пересказе сдвигается в that night",
+              "tonight не меняется",
+              "tonight → tomorrow"
+            ],
+            "correct_idx": 0,
+            "answer": "tonight при пересказе сдвигается в that night"
+          },
+          {
+            "id": "reported_speech_razberis_29",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«You should rest.» → The doctor said I should rest.\n\nЧто изменилось?",
+            "explanation": "Модальные should, would, could, might, ought to уже стоят в «прошедшей» форме и в косвенной речи не изменяются.",
+            "options": [
+              "should превратился в must",
+              "should (как и would, could, might, ought to) в косвенной речи не меняется",
+              "should стал had to"
+            ],
+            "correct_idx": 1,
+            "answer": "should (как и would, could, might, ought to) в косвенной речи не меняется"
+          },
+          {
+            "id": "reported_speech_razberis_30",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Why are you crying?» → She asked why I was crying.\n\nЧто сохранилось, а что изменилось?",
+            "explanation": "В косвенном специальном вопросе вопросительное слово (why) сохраняется, порядок слов становится прямым, время сдвигается.",
+            "options": [
+              "Сохранился вопросительный порядок",
+              "Исчезло слово why",
+              "Вопросительное слово why сохранилось, но порядок слов стал прямым, время сдвинулось"
+            ],
+            "correct_idx": 2,
+            "answer": "Вопросительное слово why сохранилось, но порядок слов стал прямым, время сдвинулось"
+          },
+          {
+            "id": "reported_speech_razberis_31",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I had finished before lunch.» → She said she had finished before lunch.\n\nПочему had finished не изменилось?",
+            "explanation": "Past Perfect — крайняя точка прошлого, дальше сдвигать некуда, поэтому при согласовании времён форма остаётся прежней.",
+            "options": [
+              "Это ошибка",
+              "Past Perfect — самое «дальнее» прошлое, дальше сдвигать некуда, оно остаётся",
+              "Оно стало Present Perfect"
+            ],
+            "correct_idx": 1,
+            "answer": "Past Perfect — самое «дальнее» прошлое, дальше сдвигать некуда, оно остаётся"
           }
         ],
-        "rule": [],
-        "practice": [],
-        "test": []
+        "rule": [
+          {
+            "id": "reported_speech_rule_0",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Do you like coffee?» → She asked ___ I liked coffee.",
+            "explanation": "Общий вопрос в косвенной речи вводится if/whether → if.",
+            "options": [
+              "that",
+              "if",
+              "what"
+            ],
+            "correct_idx": 1,
+            "answer": "if"
+          },
+          {
+            "id": "reported_speech_rule_1",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am hungry,» said Tom. → Tom said he ___ hungry.",
+            "explanation": "Согласование времён: Present Simple (am) → Past Simple (was).",
+            "options": [
+              "was",
+              "is",
+              "has been"
+            ],
+            "correct_idx": 0,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_rule_2",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Where do you work?» he asked. → He asked where I ___.",
+            "explanation": "Косвенный вопрос: прямой порядок слов, do убирается, время сдвигается → worked.",
+            "options": [
+              "do work",
+              "did work",
+              "worked"
+            ],
+            "correct_idx": 2,
+            "answer": "worked"
+          },
+          {
+            "id": "reported_speech_rule_3",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I can drive,» he said. → He said he ___ drive.",
+            "explanation": "Модальный can → could при согласовании времён.",
+            "options": [
+              "can",
+              "will",
+              "could"
+            ],
+            "correct_idx": 2,
+            "answer": "could"
+          },
+          {
+            "id": "reported_speech_rule_4",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I will come,» she said. → She said she ___ come.",
+            "explanation": "will в косвенной речи → would (future-in-the-past).",
+            "options": [
+              "will",
+              "would",
+              "comes"
+            ],
+            "correct_idx": 1,
+            "answer": "would"
+          },
+          {
+            "id": "reported_speech_rule_5",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Sit down,» the teacher said. → The teacher told us ___.",
+            "explanation": "Приказ передаётся через told + дополнение + to-инфинитив → to sit down.",
+            "options": [
+              "to sit down",
+              "sit down",
+              "that sit down"
+            ],
+            "correct_idx": 0,
+            "answer": "to sit down"
+          },
+          {
+            "id": "reported_speech_rule_6",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«She ___ me she was tired.»",
+            "explanation": "tell берёт дополнение напрямую: told me. (say потребовало бы said to me.)",
+            "options": [
+              "told",
+              "said",
+              "say"
+            ],
+            "correct_idx": 0,
+            "answer": "told"
+          },
+          {
+            "id": "reported_speech_rule_7",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I lost my keys,» he said. → He said he ___ his keys.",
+            "explanation": "Past Simple (lost) → Past Perfect (had lost).",
+            "options": [
+              "lost",
+              "had lost",
+              "has lost"
+            ],
+            "correct_idx": 1,
+            "answer": "had lost"
+          },
+          {
+            "id": "reported_speech_rule_8",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I must leave,» he said. → He said he ___ leave.",
+            "explanation": "must (необходимость) в косвенной речи → had to.",
+            "options": [
+              "had to",
+              "must to",
+              "musted"
+            ],
+            "correct_idx": 0,
+            "answer": "had to"
+          },
+          {
+            "id": "reported_speech_rule_9",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Don't run,» she said. → She told the children ___.",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to run.",
+            "options": [
+              "don't run",
+              "to don't run",
+              "not to run"
+            ],
+            "correct_idx": 2,
+            "answer": "not to run"
+          },
+          {
+            "id": "reported_speech_rule_10",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am leaving now,» he said. → He said he was leaving ___.",
+            "explanation": "Указатель времени now → then.",
+            "options": [
+              "now",
+              "then",
+              "today"
+            ],
+            "correct_idx": 1,
+            "answer": "then"
+          },
+          {
+            "id": "reported_speech_rule_11",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«What is your name?» → She asked what my name ___.",
+            "explanation": "Косвенный вопрос: is → was (согласование времён), порядок прямой.",
+            "options": [
+              "is",
+              "does",
+              "was"
+            ],
+            "correct_idx": 2,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_rule_12",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«He ___ that he was busy.»",
+            "explanation": "Без дополнения используется say: said that… (tell требовал бы дополнения).",
+            "options": [
+              "said",
+              "told",
+              "told to"
+            ],
+            "correct_idx": 0,
+            "answer": "said"
+          },
+          {
+            "id": "reported_speech_rule_13",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I have seen this film,» he said. → He said he ___ this film.",
+            "explanation": "Present Perfect (have seen) → Past Perfect (had seen).",
+            "options": [
+              "has seen",
+              "saw",
+              "had seen"
+            ],
+            "correct_idx": 2,
+            "answer": "had seen"
+          },
+          {
+            "id": "reported_speech_rule_14",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I'll see you tomorrow,» she said. → She said she'd see me ___.",
+            "explanation": "Указатель времени tomorrow → the next day.",
+            "options": [
+              "tomorrow",
+              "the next day",
+              "yesterday"
+            ],
+            "correct_idx": 1,
+            "answer": "the next day"
+          },
+          {
+            "id": "reported_speech_rule_15",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«It may rain,» she said. → She said it ___ rain.",
+            "explanation": "Модальный may → might.",
+            "options": [
+              "may",
+              "might",
+              "must"
+            ],
+            "correct_idx": 1,
+            "answer": "might"
+          },
+          {
+            "id": "reported_speech_rule_16",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Please open the window,» he said. → He asked me ___ the window.",
+            "explanation": "Просьба: asked me + to-инфинитив → to open.",
+            "options": [
+              "to open",
+              "open",
+              "opening"
+            ],
+            "correct_idx": 0,
+            "answer": "to open"
+          },
+          {
+            "id": "reported_speech_rule_17",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Найди ошибку: «He told that he was ill.»",
+            "explanation": "tell требует дополнения. Правильно: He said that he was ill ИЛИ He told me that he was ill.",
+            "options": [
+              "was → is",
+              "ill → sick",
+              "told → said (или told me)"
+            ],
+            "correct_idx": 2,
+            "answer": "told → said (или told me)"
+          },
+          {
+            "id": "reported_speech_rule_18",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Wait here,» he said. → He told me to wait ___.",
+            "explanation": "Наречие места here → there.",
+            "options": [
+              "there",
+              "here",
+              "then"
+            ],
+            "correct_idx": 0,
+            "answer": "there"
+          },
+          {
+            "id": "reported_speech_rule_19",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Are you ready?» → He asked ___ I was ready.",
+            "explanation": "Общий вопрос вводится whether/if → whether.",
+            "options": [
+              "that",
+              "whether",
+              "what"
+            ],
+            "correct_idx": 1,
+            "answer": "whether"
+          },
+          {
+            "id": "reported_speech_rule_20",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«When did you arrive?» → He asked when I ___.",
+            "explanation": "Косвенный вопрос: did убирается, Past Simple → Past Perfect → had arrived.",
+            "options": [
+              "did arrive",
+              "had arrived",
+              "arrive"
+            ],
+            "correct_idx": 1,
+            "answer": "had arrived"
+          },
+          {
+            "id": "reported_speech_rule_21",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I am working,» she said. → She said she ___.",
+            "explanation": "Present Continuous (am working) → Past Continuous (was working).",
+            "options": [
+              "is working",
+              "works",
+              "was working"
+            ],
+            "correct_idx": 2,
+            "answer": "was working"
+          },
+          {
+            "id": "reported_speech_rule_22",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«You should see a doctor,» she said. → She said I ___ see a doctor.",
+            "explanation": "should в косвенной речи не меняется.",
+            "options": [
+              "had to",
+              "must",
+              "should"
+            ],
+            "correct_idx": 2,
+            "answer": "should"
+          },
+          {
+            "id": "reported_speech_rule_23",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«We will travel to Spain,» they said. → They said they ___ travel to Spain.",
+            "explanation": "will → would (future-in-the-past).",
+            "options": [
+              "would",
+              "will",
+              "travelled"
+            ],
+            "correct_idx": 0,
+            "answer": "would"
+          },
+          {
+            "id": "reported_speech_rule_24",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I want this one,» he said. → He said he wanted ___ one.",
+            "explanation": "Указательное this → that.",
+            "options": [
+              "that",
+              "this",
+              "these"
+            ],
+            "correct_idx": 0,
+            "answer": "that"
+          },
+          {
+            "id": "reported_speech_rule_25",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Be quiet!» the teacher said. → The teacher told the class ___ quiet.",
+            "explanation": "Приказ: told + дополнение + to-инфинитив → to be quiet.",
+            "options": [
+              "be",
+              "to be",
+              "being"
+            ],
+            "correct_idx": 1,
+            "answer": "to be"
+          },
+          {
+            "id": "reported_speech_rule_26",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Water boils at 100°C,» the teacher said. → The teacher said water ___ at 100°C.",
+            "explanation": "Общеизвестная истина — согласование времён можно не применять → boils.",
+            "options": [
+              "boils",
+              "boiled",
+              "had boiled"
+            ],
+            "correct_idx": 0,
+            "answer": "boils"
+          },
+          {
+            "id": "reported_speech_rule_27",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I can't swim,» he said. → He said he ___ swim.",
+            "explanation": "can't → couldn't при согласовании времён.",
+            "options": [
+              "can't",
+              "couldn't",
+              "won't"
+            ],
+            "correct_idx": 1,
+            "answer": "couldn't"
+          },
+          {
+            "id": "reported_speech_rule_28",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I called you yesterday,» he said. → He said he had called me ___.",
+            "explanation": "Указатель времени yesterday → the day before.",
+            "options": [
+              "yesterday",
+              "tomorrow",
+              "the day before"
+            ],
+            "correct_idx": 2,
+            "answer": "the day before"
+          },
+          {
+            "id": "reported_speech_rule_29",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Don't touch the paintings,» the guard said. → The guard told visitors ___ the paintings.",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to touch.",
+            "options": [
+              "don't touch",
+              "to not touch",
+              "not to touch"
+            ],
+            "correct_idx": 2,
+            "answer": "not to touch"
+          },
+          {
+            "id": "reported_speech_rule_30",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Why are you sad?» → She asked why I ___ sad.",
+            "explanation": "Косвенный вопрос: are → was (согласование), порядок прямой.",
+            "options": [
+              "was",
+              "am",
+              "is"
+            ],
+            "correct_idx": 0,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_rule_31",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«We are happy,» they said. → They said ___ happy.",
+            "explanation": "Местоимение we → they; Present (are) → Past (were).",
+            "options": [
+              "we were",
+              "they were",
+              "they are"
+            ],
+            "correct_idx": 1,
+            "answer": "they were"
+          },
+          {
+            "id": "reported_speech_rule_32",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«You mustn't smoke here,» he said. → He said I ___ smoke there.",
+            "explanation": "mustn't (запрет) в косвенной речи обычно не меняется.",
+            "options": [
+              "didn't have to",
+              "mustn't",
+              "couldn't"
+            ],
+            "correct_idx": 1,
+            "answer": "mustn't"
+          },
+          {
+            "id": "reported_speech_rule_33",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I met her last week,» he said. → He said he had met her ___.",
+            "explanation": "Указатель времени last week → the week before.",
+            "options": [
+              "last week",
+              "next week",
+              "the week before"
+            ],
+            "correct_idx": 2,
+            "answer": "the week before"
+          },
+          {
+            "id": "reported_speech_rule_34",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Did you finish?» she asked. → She asked if I ___.",
+            "explanation": "Общий вопрос: if + прямой порядок; Past Simple → Past Perfect → had finished.",
+            "options": [
+              "had finished",
+              "did finish",
+              "finish"
+            ],
+            "correct_idx": 0,
+            "answer": "had finished"
+          },
+          {
+            "id": "reported_speech_rule_35",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«Hello,» he said ___ me.",
+            "explanation": "say сочетается с дополнением через предлог to → said to me.",
+            "options": [
+              "(ничего)",
+              "that",
+              "to"
+            ],
+            "correct_idx": 2,
+            "answer": "to"
+          },
+          {
+            "id": "reported_speech_rule_36",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I'm staying in tonight,» she said. → She said she was staying in ___.",
+            "explanation": "Указатель времени tonight → that night.",
+            "options": [
+              "tonight",
+              "tomorrow night",
+              "that night"
+            ],
+            "correct_idx": 2,
+            "answer": "that night"
+          },
+          {
+            "id": "reported_speech_rule_37",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I saw it three days ago,» he said. → He said he had seen it three days ___.",
+            "explanation": "Указатель времени ago → before.",
+            "options": [
+              "before",
+              "ago",
+              "later"
+            ],
+            "correct_idx": 0,
+            "answer": "before"
+          },
+          {
+            "id": "reported_speech_rule_38",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«What are you doing?» he asked. → He asked what I ___.",
+            "explanation": "Косвенный вопрос: Present Continuous → Past Continuous → was doing.",
+            "options": [
+              "am doing",
+              "was doing",
+              "do"
+            ],
+            "correct_idx": 1,
+            "answer": "was doing"
+          },
+          {
+            "id": "reported_speech_rule_39",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "«I could swim when I was five,» he said. → He said he ___ swim when he was five.",
+            "explanation": "could в косвенной речи не меняется.",
+            "options": [
+              "could",
+              "can",
+              "had could"
+            ],
+            "correct_idx": 0,
+            "answer": "could"
+          }
+        ],
+        "practice": [
+          {
+            "id": "reported_speech_practice_0",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am a teacher,» he said. → He said that ___",
+            "explanation": "Present Simple (am) → Past Simple (was); I → he.",
+            "answer": "he was a teacher"
+          },
+          {
+            "id": "reported_speech_practice_1",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«We live in London,» they said. → They said that ___",
+            "explanation": "Present Simple (live) → Past Simple (lived); we → they.",
+            "answer": "they lived in London"
+          },
+          {
+            "id": "reported_speech_practice_2",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I don't like fish,» she said. → She said that ___",
+            "explanation": "Отрицание в Present Simple → Past Simple: don't like → didn't like; I → she.",
+            "answer": "she did not like fish"
+          },
+          {
+            "id": "reported_speech_practice_3",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I have lost my phone,» he said. → He said that ___",
+            "explanation": "Present Perfect (have lost) → Past Perfect (had lost); my → his.",
+            "answer": "he had lost his phone"
+          },
+          {
+            "id": "reported_speech_practice_4",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am reading a book,» she said. → She said that ___",
+            "explanation": "Present Continuous (am reading) → Past Continuous (was reading).",
+            "answer": "she was reading a book"
+          },
+          {
+            "id": "reported_speech_practice_5",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I saw the film yesterday,» he said. → He said that ___",
+            "explanation": "Past Simple (saw) → Past Perfect (had seen); yesterday → the day before / the previous day.",
+            "answer": "he had seen the film the day before / he had seen the film the previous day"
+          },
+          {
+            "id": "reported_speech_practice_6",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I'll call you tomorrow,» she said (мне). → She said that ___",
+            "explanation": "will → would; you → me; tomorrow → the next day / the following day.",
+            "answer": "she would call me the next day / she would call me the following day"
+          },
+          {
+            "id": "reported_speech_practice_7",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I don't understand this,» the student said. → The student said that ___",
+            "explanation": "don't understand → didn't understand; this → that.",
+            "answer": "he did not understand that /she did not understand that"
+          },
+          {
+            "id": "reported_speech_practice_8",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am not feeling well today,» he said. → He said that ___",
+            "explanation": "Present Continuous отрицание → Past Continuous: am not feeling → wasn't feeling; today → that day.",
+            "answer": "he was not feeling well that day"
+          },
+          {
+            "id": "reported_speech_practice_9",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«We have finished our work,» they said. → They said that ___",
+            "explanation": "Present Perfect (have finished) → Past Perfect (had finished); our → their.",
+            "answer": "they had finished their work"
+          },
+          {
+            "id": "reported_speech_practice_10",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Do you speak French?» she asked (меня). → She asked ___",
+            "explanation": "Общий вопрос: if + прямой порядок; do speak → spoke.",
+            "answer": "if I spoke French"
+          },
+          {
+            "id": "reported_speech_practice_11",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Where do you live?» he asked (меня). → He asked ___",
+            "explanation": "Специальный вопрос: where + прямой порядок; do live → lived.",
+            "answer": "where I lived"
+          },
+          {
+            "id": "reported_speech_practice_12",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Are you tired?» she asked (меня). → She asked ___",
+            "explanation": "Общий вопрос: if; are → was; прямой порядок.",
+            "answer": "if I was tired"
+          },
+          {
+            "id": "reported_speech_practice_13",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«What time is it?» he asked. → He asked ___",
+            "explanation": "Специальный вопрос: what time + прямой порядок; is → was.",
+            "answer": "what time it was"
+          },
+          {
+            "id": "reported_speech_practice_14",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Have you seen my keys?» she asked (меня). → She asked ___",
+            "explanation": "Общий вопрос: if; Present Perfect → Past Perfect; my → her.",
+            "answer": "if I had seen her keys"
+          },
+          {
+            "id": "reported_speech_practice_15",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Why are you late?» the teacher asked (меня). → The teacher asked ___",
+            "explanation": "Специальный вопрос: why + прямой порядок; are → was.",
+            "answer": "why I was late"
+          },
+          {
+            "id": "reported_speech_practice_16",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Did you call her?» he asked (меня). → He asked ___",
+            "explanation": "Общий вопрос: if; did call → had called (Past → Past Perfect).",
+            "answer": "if I had called her"
+          },
+          {
+            "id": "reported_speech_practice_17",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«When will the train arrive?» she asked. → She asked ___",
+            "explanation": "Специальный вопрос: when + прямой порядок; will → would.",
+            "answer": "when the train would arrive"
+          },
+          {
+            "id": "reported_speech_practice_18",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Can you help me?» he asked (меня). → He asked ___",
+            "explanation": "Общий вопрос: if; can → could; me → him.",
+            "answer": "if I could help him"
+          },
+          {
+            "id": "reported_speech_practice_19",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Who broke the window?» the teacher asked. → The teacher asked ___",
+            "explanation": "Вопрос к подлежащему: who сохраняется, do не нужен; broke → had broken.",
+            "answer": "who had broken the window"
+          },
+          {
+            "id": "reported_speech_practice_20",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Open your books,» the teacher said. → The teacher told the pupils ___",
+            "explanation": "Приказ: told + дополнение + to-инфинитив; your → their.",
+            "answer": "to open their books"
+          },
+          {
+            "id": "reported_speech_practice_21",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Don't be late,» she said (мне). → She told me ___",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to be late.",
+            "answer": "not to be late"
+          },
+          {
+            "id": "reported_speech_practice_22",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Please help me,» he said (мне). → He asked me ___",
+            "explanation": "Просьба: asked me + to-инфинитив; me → him.",
+            "answer": "to help him"
+          },
+          {
+            "id": "reported_speech_practice_23",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Sit down,» the doctor said (мне). → The doctor told me ___",
+            "explanation": "Приказ: told me + to-инфинитив → to sit down.",
+            "answer": "to sit down"
+          },
+          {
+            "id": "reported_speech_practice_24",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Don't touch that,» she said (мальчику). → She told the boy ___",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to touch that.",
+            "answer": "not to touch that"
+          },
+          {
+            "id": "reported_speech_practice_25",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Wait for me here,» he said (мне). → He told me ___",
+            "explanation": "Приказ: to-инфинитив; me → him; here → there.",
+            "answer": "to wait for him there"
+          },
+          {
+            "id": "reported_speech_practice_26",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Be quiet!» the librarian said (нам). → The librarian told us ___",
+            "explanation": "Приказ: told us + to-инфинитив → to be quiet.",
+            "answer": "to be quiet"
+          },
+          {
+            "id": "reported_speech_practice_27",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«Please don't smoke,» she said (ему). → She asked him ___",
+            "explanation": "Вежливый отрицательный запрос: asked him + not + to-инфинитив → not to smoke.",
+            "answer": "not to smoke"
+          },
+          {
+            "id": "reported_speech_practice_28",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am working hard,» he said. → He said that ___",
+            "explanation": "Present Continuous (am working) → Past Continuous (was working).",
+            "answer": "he was working hard"
+          },
+          {
+            "id": "reported_speech_practice_29",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I worked late last night,» she said. → She said that ___",
+            "explanation": "Past Simple (worked) → Past Perfect (had worked); last night → the night before.",
+            "answer": "she had worked late the night before"
+          },
+          {
+            "id": "reported_speech_practice_30",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am walking my dog,» he said. → He said that ___",
+            "explanation": "Present Continuous → Past Continuous: my → his",
+            "answer": "he was walking his dog"
+          },
+          {
+            "id": "reported_speech_practice_31",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«It is raining,» she said. → She said that ___",
+            "explanation": "Present Continuous (is raining) → Past Continuous (was raining).",
+            "answer": "it was raining"
+          },
+          {
+            "id": "reported_speech_practice_32",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I bought a new car,» he said. → He said that ___",
+            "explanation": "Past Simple (bought) → Past Perfect (had bought).",
+            "answer": "he had bought a new car"
+          },
+          {
+            "id": "reported_speech_practice_33",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am going home now,» he said. → He said that ___",
+            "explanation": "Present Continuous → Past Continuous: am going → was going; now → then.",
+            "answer": "he was going home then"
+          },
+          {
+            "id": "reported_speech_practice_34",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I will be there soon,» she said. → She said that ___",
+            "explanation": "will → would (future-in-the-past).",
+            "answer": "she would be there soon"
+          },
+          {
+            "id": "reported_speech_practice_35",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am cooking dinner,» she said. → She said that ___",
+            "explanation": "Present Continuous (am cooking) → Past Continuous (was cooking).",
+            "answer": "she was cooking dinner"
+          },
+          {
+            "id": "reported_speech_practice_36",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I can speak three languages,» he said. → He said that ___",
+            "explanation": "Модальный can → could.",
+            "answer": "he could speak three languages"
+          },
+          {
+            "id": "reported_speech_practice_37",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«You must finish this today,» the boss said (мне). → The boss said that ___",
+            "explanation": "must → had to; this → it; today → that day.",
+            "answer": "I had to finish it that day"
+          },
+          {
+            "id": "reported_speech_practice_38",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«It may snow,» she said. → She said that ___",
+            "explanation": "Модальный may → might.",
+            "answer": "it might snow"
+          },
+          {
+            "id": "reported_speech_practice_39",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«You should rest,» the doctor said (мне). → The doctor said that ___",
+            "explanation": "should в косвенной речи не меняется; you → I.",
+            "answer": "I should rest"
+          },
+          {
+            "id": "reported_speech_practice_40",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I can't come to the party,» he said. → He said that ___",
+            "explanation": "can't → couldn't при согласовании времён.",
+            "answer": "he could not come to the party"
+          },
+          {
+            "id": "reported_speech_practice_41",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«You mustn't be late,» she said (мне). → She said that ___",
+            "explanation": "mustn't (запрет) обычно не меняется; you → I.",
+            "answer": "I must not be late"
+          },
+          {
+            "id": "reported_speech_practice_42",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I will become a doctor,» she said. → She said that ___",
+            "explanation": "will → would (future-in-the-past).",
+            "answer": "she would become a doctor"
+          },
+          {
+            "id": "reported_speech_practice_43",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«We will win the match,» they said. → They said that ___",
+            "explanation": "will → would; we → they.",
+            "answer": "they would win the match"
+          },
+          {
+            "id": "reported_speech_practice_44",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I won't tell anyone,» he said. → He said that ___",
+            "explanation": "won't (will not) → wouldn't (would not).",
+            "answer": "he would not tell anyone"
+          },
+          {
+            "id": "reported_speech_practice_45",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«It will be a great day,» she said. → She said that ___",
+            "explanation": "will → would (future-in-the-past).",
+            "answer": "it would be a great day"
+          },
+          {
+            "id": "reported_speech_practice_46",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«I am going to travel,» he said. → He said that ___",
+            "explanation": "to be going to: am going to → was going to.",
+            "answer": "he was going to travel"
+          },
+          {
+            "id": "reported_speech_practice_47",
+            "type": "open",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Передай в косвенной речи:\n\n«They will arrive tomorrow,» she said. → She said that ___",
+            "explanation": "will → would; tomorrow → the next day / the following day.",
+            "answer": "they would arrive the next day / they would arrive the following day"
+          }
+        ],
+        "test": [
+          {
+            "id": "reported_speech_test_0",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "This morning your friend Tom told you he feels sick. Now you pass it on to a teacher.\n\n«Tom said that he ___ sick.»",
+            "explanation": "Согласование времён: Present (feels/is) → Past (was).",
+            "options": [
+              "was",
+              "is",
+              "has been"
+            ],
+            "correct_idx": 0,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_test_1",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Before the trip, your sister promised she will pay you back. You tell your mum about it.\n\n«She said that she ___ pay me back.»",
+            "explanation": "will → would (future-in-the-past).",
+            "options": [
+              "will",
+              "would",
+              "pays"
+            ],
+            "correct_idx": 1,
+            "answer": "would"
+          },
+          {
+            "id": "reported_speech_test_2",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "A stranger came up and asked you, 'Do you have the time?' You tell your friend what he wanted to know.\n\n«He asked ___ I had the time.»",
+            "explanation": "Общий вопрос в косвенной речи вводится if/whether → if.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "correct_idx": 2,
+            "answer": "if"
+          },
+          {
+            "id": "reported_speech_test_3",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The coach said to the team, 'Run faster!' You report his instruction.\n\n«The coach told us ___ faster.»",
+            "explanation": "Приказ: told us + to-инфинитив → to run.",
+            "options": [
+              "to run",
+              "run",
+              "running"
+            ],
+            "correct_idx": 0,
+            "answer": "to run"
+          },
+          {
+            "id": "reported_speech_test_4",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your little cousin asked you, 'Where is the cat?' You tell your aunt what he asked.\n\n«He asked where the cat ___.»",
+            "explanation": "Косвенный вопрос: is → was, прямой порядок слов.",
+            "options": [
+              "is",
+              "was",
+              "does"
+            ],
+            "correct_idx": 1,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_test_5",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "At the interview the applicant said, 'I can use three programs.' The manager reports this.\n\n«She said that she ___ use three programs.»",
+            "explanation": "Модальный can → could.",
+            "options": [
+              "can",
+              "will",
+              "could"
+            ],
+            "correct_idx": 2,
+            "answer": "could"
+          },
+          {
+            "id": "reported_speech_test_6",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The museum guard said to the children, 'Don't run inside.' A parent reports it.\n\n«The guard told the children ___ inside.»",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to run.",
+            "options": [
+              "not to run",
+              "don't run",
+              "to not run"
+            ],
+            "correct_idx": 0,
+            "answer": "not to run"
+          },
+          {
+            "id": "reported_speech_test_7",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your brother admitted, 'I broke the vase.' You tell your mother what happened.\n\n«He said that he ___ the vase.»",
+            "explanation": "Past Simple (broke) → Past Perfect (had broken).",
+            "options": [
+              "broke",
+              "had broken",
+              "has broken"
+            ],
+            "correct_idx": 1,
+            "answer": "had broken"
+          },
+          {
+            "id": "reported_speech_test_8",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Yesterday your colleague said, 'I must finish the report.' You explain why she stayed late.\n\n«She said that she ___ finish the report.»",
+            "explanation": "must (необходимость) → had to.",
+            "options": [
+              "must",
+              "musted",
+              "had to"
+            ],
+            "correct_idx": 2,
+            "answer": "had to"
+          },
+          {
+            "id": "reported_speech_test_9",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your neighbour said politely, 'Please water my plants.' You tell your family about the favour.\n\n«She asked me ___ her plants.»",
+            "explanation": "Просьба: asked me + to-инфинитив; my → her.",
+            "options": [
+              "to water",
+              "water",
+              "watering"
+            ],
+            "correct_idx": 0,
+            "answer": "to water"
+          },
+          {
+            "id": "reported_speech_test_10",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "On Monday your friend said, 'I'll see you tomorrow.' You retell this later in the week.\n\n«He said he would see me ___.»",
+            "explanation": "Указатель времени tomorrow → the next day.",
+            "options": [
+              "tomorrow",
+              "the next day",
+              "yesterday"
+            ],
+            "correct_idx": 1,
+            "answer": "the next day"
+          },
+          {
+            "id": "reported_speech_test_11",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend announced, 'I have passed my exams!' You share the news with others.\n\n«She said that she ___ her exams.»",
+            "explanation": "Present Perfect (have passed) → Past Perfect (had passed).",
+            "options": [
+              "has passed",
+              "passed",
+              "had passed"
+            ],
+            "correct_idx": 2,
+            "answer": "had passed"
+          },
+          {
+            "id": "reported_speech_test_12",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your dad said, 'I may be late tonight.' You pass the message to your mum.\n\n«He said that he ___ be late.»",
+            "explanation": "Модальный may → might.",
+            "options": [
+              "might",
+              "may",
+              "must"
+            ],
+            "correct_idx": 0,
+            "answer": "might"
+          },
+          {
+            "id": "reported_speech_test_13",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your teacher personally informed you that the test is on Friday. You report it with a verb that takes an object.\n\n«The teacher ___ me that the test was on Friday.»",
+            "explanation": "tell берёт дополнение напрямую → told me. (say потребовал бы said to me.)",
+            "options": [
+              "said",
+              "told",
+              "say"
+            ],
+            "correct_idx": 1,
+            "answer": "told"
+          },
+          {
+            "id": "reported_speech_test_14",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "A tourist asked you, 'What time does the bank open?' You report the question.\n\n«He asked what time the bank ___.»",
+            "explanation": "Косвенный вопрос: do убирается, время сдвигается → opened.",
+            "options": [
+              "does open",
+              "did open",
+              "opened"
+            ],
+            "correct_idx": 2,
+            "answer": "opened"
+          },
+          {
+            "id": "reported_speech_test_15",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your sister called and said, 'I am driving home.' You tell your parents.\n\n«She said that she ___ home.»",
+            "explanation": "Present Continuous (am driving) → Past Continuous (was driving).",
+            "options": [
+              "was driving",
+              "is driving",
+              "drives"
+            ],
+            "correct_idx": 0,
+            "answer": "was driving"
+          },
+          {
+            "id": "reported_speech_test_16",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Last year your team was sure: 'We will be champions.' You recall their confidence.\n\n«They were sure that they ___ champions.»",
+            "explanation": "will → would (future-in-the-past).",
+            "options": [
+              "will be",
+              "would be",
+              "are"
+            ],
+            "correct_idx": 1,
+            "answer": "would be"
+          },
+          {
+            "id": "reported_speech_test_17",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend admitted, 'I don't know the answer.' You report it.\n\n«He said that he ___ the answer.»",
+            "explanation": "Отрицание Present Simple → Past Simple: don't know → didn't know.",
+            "options": [
+              "doesn't know",
+              "hasn't known",
+              "didn't know"
+            ],
+            "correct_idx": 2,
+            "answer": "didn't know"
+          },
+          {
+            "id": "reported_speech_test_18",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your guide said, 'Wait here for the bus.' You tell a latecomer where to stand.\n\n«The guide told us to wait ___.»",
+            "explanation": "Наречие места here → there.",
+            "options": [
+              "there",
+              "here",
+              "then"
+            ],
+            "correct_idx": 0,
+            "answer": "there"
+          },
+          {
+            "id": "reported_speech_test_19",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The receptionist asked, 'Are you a member?' You report the question.\n\n«She asked ___ I was a member.»",
+            "explanation": "Общий вопрос вводится whether/if → whether.",
+            "options": [
+              "that",
+              "whether",
+              "what"
+            ],
+            "correct_idx": 1,
+            "answer": "whether"
+          },
+          {
+            "id": "reported_speech_test_20",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The doctor advised, 'You should drink more water.' You repeat the advice.\n\n«The doctor said that I ___ drink more water.»",
+            "explanation": "should в косвенной речи не меняется.",
+            "options": [
+              "had to",
+              "must",
+              "should"
+            ],
+            "correct_idx": 2,
+            "answer": "should"
+          },
+          {
+            "id": "reported_speech_test_21",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend told you, 'I visited Rome in spring.' You retell it to someone.\n\n«He said that he ___ Rome in spring.»",
+            "explanation": "Past Simple (visited) → Past Perfect (had visited).",
+            "options": [
+              "had visited",
+              "visited",
+              "has visited"
+            ],
+            "correct_idx": 0,
+            "answer": "had visited"
+          },
+          {
+            "id": "reported_speech_test_22",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The teacher said to the class, 'Be quiet!' You report the order.\n\n«The teacher told the class ___ quiet.»",
+            "explanation": "Приказ: told + дополнение + to-инфинитив → to be quiet.",
+            "options": [
+              "be",
+              "to be",
+              "being"
+            ],
+            "correct_idx": 1,
+            "answer": "to be"
+          },
+          {
+            "id": "reported_speech_test_23",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your boss said, 'I am busy now.' You explain why he couldn't talk earlier.\n\n«He said that he was busy ___.»",
+            "explanation": "Наречие времени now → then.",
+            "options": [
+              "now",
+              "today",
+              "then"
+            ],
+            "correct_idx": 2,
+            "answer": "then"
+          },
+          {
+            "id": "reported_speech_test_24",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend said, 'I can't swim.' You report it to the lifeguard.\n\n«She said that she ___ swim.»",
+            "explanation": "can't → couldn't при согласовании времён.",
+            "options": [
+              "couldn't",
+              "can't",
+              "won't"
+            ],
+            "correct_idx": 0,
+            "answer": "couldn't"
+          },
+          {
+            "id": "reported_speech_test_25",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your mum asked you, 'Why are you sad?' You retell her question.\n\n«She asked why I ___ sad.»",
+            "explanation": "Косвенный вопрос: are → was, прямой порядок слов.",
+            "options": [
+              "am",
+              "was",
+              "is"
+            ],
+            "correct_idx": 1,
+            "answer": "was"
+          },
+          {
+            "id": "reported_speech_test_26",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your brother promised, 'I won't tell your secret.' You recall his promise.\n\n«He promised that he ___ tell my secret.»",
+            "explanation": "won't (will not) → wouldn't (would not).",
+            "options": [
+              "won't",
+              "doesn't",
+              "wouldn't"
+            ],
+            "correct_idx": 2,
+            "answer": "wouldn't"
+          },
+          {
+            "id": "reported_speech_test_27",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The flight attendant said, 'Please don't use your phones.' You report the instruction.\n\n«She asked us ___ our phones.»",
+            "explanation": "Вежливый отрицательный запрос: asked us + not + to-инфинитив → not to use.",
+            "options": [
+              "not to use",
+              "to not use",
+              "don't use"
+            ],
+            "correct_idx": 0,
+            "answer": "not to use"
+          },
+          {
+            "id": "reported_speech_test_28",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend said, 'I arrived yesterday.' You retell this the following week.\n\n«He said that he had arrived ___.»",
+            "explanation": "Указатель времени yesterday → the day before.",
+            "options": [
+              "yesterday",
+              "the day before",
+              "tomorrow"
+            ],
+            "correct_idx": 1,
+            "answer": "the day before"
+          },
+          {
+            "id": "reported_speech_test_29",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your teacher said, 'The trip may be cancelled.' You tell your classmates.\n\n«She said that the trip ___ be cancelled.»",
+            "explanation": "Модальный may → might.",
+            "options": [
+              "may",
+              "must",
+              "might"
+            ],
+            "correct_idx": 2,
+            "answer": "might"
+          },
+          {
+            "id": "reported_speech_test_30",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend said, 'I have already eaten.' You explain why he refused lunch.\n\n«He said that he ___ already eaten.»",
+            "explanation": "Present Perfect (have eaten) → Past Perfect (had eaten).",
+            "options": [
+              "had",
+              "has",
+              "was"
+            ],
+            "correct_idx": 0,
+            "answer": "had"
+          },
+          {
+            "id": "reported_speech_test_31",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "A child asked you, 'Can you fix my toy?' You report the request.\n\n«He asked ___ I could fix his toy.»",
+            "explanation": "Общий вопрос: if/whether; can → could; my → his.",
+            "options": [
+              "that",
+              "if",
+              "what"
+            ],
+            "correct_idx": 1,
+            "answer": "if"
+          },
+          {
+            "id": "reported_speech_test_32",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The sign said, 'Don't feed the animals.' A keeper reports the rule to visitors.\n\n«He told visitors ___ the animals.»",
+            "explanation": "Отрицательный приказ: not + to-инфинитив → not to feed.",
+            "options": [
+              "don't feed",
+              "to not feed",
+              "not to feed"
+            ],
+            "correct_idx": 2,
+            "answer": "not to feed"
+          },
+          {
+            "id": "reported_speech_test_33",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend said, 'I will help you move.' You remind her of it later.\n\n«You said that you ___ help me move.»",
+            "explanation": "will → would (future-in-the-past).",
+            "options": [
+              "would",
+              "will",
+              "helped"
+            ],
+            "correct_idx": 0,
+            "answer": "would"
+          },
+          {
+            "id": "reported_speech_test_34",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "The teacher asked, 'Who wants to answer?' You report the question.\n\n«The teacher asked who ___ to answer.»",
+            "explanation": "Вопрос к подлежащему: who сохраняется, do не нужен; wants → wanted.",
+            "options": [
+              "does want",
+              "wanted",
+              "want"
+            ],
+            "correct_idx": 1,
+            "answer": "wanted"
+          },
+          {
+            "id": "reported_speech_test_35",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend pointed and said, 'I love this song.' You retell it.\n\n«She said that she loved ___ song.»",
+            "explanation": "Указательное this → that.",
+            "options": [
+              "this",
+              "these",
+              "that"
+            ],
+            "correct_idx": 2,
+            "answer": "that"
+          },
+          {
+            "id": "reported_speech_test_36",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your teacher said, 'You must bring your textbook.' You tell a friend who missed class.\n\n«She said that we ___ bring our textbooks.»",
+            "explanation": "must (необходимость) → had to; you → we.",
+            "options": [
+              "had to",
+              "must to",
+              "musted"
+            ],
+            "correct_idx": 0,
+            "answer": "had to"
+          },
+          {
+            "id": "reported_speech_test_37",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your neighbour mentioned, 'I work from home.' You tell someone about him.\n\n«He said that he ___ from home.»",
+            "explanation": "Present Simple (work) → Past Simple (worked).",
+            "options": [
+              "works",
+              "worked",
+              "had worked"
+            ],
+            "correct_idx": 1,
+            "answer": "worked"
+          },
+          {
+            "id": "reported_speech_test_38",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your friend asked you, 'Did you lock the door?' You retell the question.\n\n«She asked ___ I had locked the door.»",
+            "explanation": "Общий вопрос: if/whether; did lock → had locked.",
+            "options": [
+              "that",
+              "what",
+              "if"
+            ],
+            "correct_idx": 2,
+            "answer": "if"
+          },
+          {
+            "id": "reported_speech_test_39",
+            "type": "choice",
+            "code": "2.4.13",
+            "task_type": "Утверждения и отрицания в косвенной речи",
+            "context": "Your cousin said, 'I am going to study abroad.' You share the plan.\n\n«He said that he ___ study abroad.»",
+            "explanation": "to be going to: am going to → was going to.",
+            "options": [
+              "was going to",
+              "is going to",
+              "will"
+            ],
+            "correct_idx": 0,
+            "answer": "was going to"
+          }
+        ]
       }
     }
   ]
